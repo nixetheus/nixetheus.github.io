@@ -1,0 +1,548 @@
+@font-face {
+    font-family: "Hack";
+    src: url("Fonts/Hack-Regular.ttf");
+}
+
+:root {
+    --primary: #0B132B; /* #00868B;  1b2845 */
+    --secondary: #EBEBD3;
+    --tertiary: #F2EFE9;
+
+    --code-foreground: #000036;
+    --code-background: #FCBB41;
+    
+    --main-font: 'Major Mono Display', monospace;
+    --secondary-font: 'Inria Sans', sans-serif;
+    --tertiary-font: 'Hack', sans-serif;
+    --fourth-font: 'Share Tech Mono', monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+
+    overflow: hidden;
+    background-color: var(--primary) !important;
+}
+
+/* LOADING SCREEN */
+
+#loading-screen {
+
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    position: fixed;
+
+    width: 100%;
+    height: 100vh;
+    background-color: var(--secondary);
+}
+
+.center-img {
+
+    width: 150px;
+    height: 150px;
+
+    display: block;
+    margin: 35vh auto auto;
+}
+
+/* HEADER */
+.navbar {
+
+    top: 0;
+    width: 100vw;
+    z-index: 50000;
+    position: fixed;
+
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#navbar-row {
+
+    top: 0;
+    width: 100vw;
+    z-index: 50000;
+    position: fixed;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    padding: 0.5% !important;
+    padding-left: 1.5vw !important;
+    padding-right: 2vw !important;
+
+    background-color: var(--primary) !important;
+}
+
+.navbar-brand {
+
+    padding-top: 0.5vh;
+
+    font-size: 22.5px !important;
+    color: var(--secondary) !important;
+    font-family: var(--main-font) !important;
+}
+
+.nav-item {
+    margin-left: 1.5vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+}
+
+.nav-link {
+
+    float: left;
+
+    padding: 0 !important;
+
+    font-size: 17px !important;
+    font-family: var(--secondary-font) !important;
+
+    color: white !important;
+}
+
+.current {
+    padding: 0 !important;
+    padding-left: 0.5vw !important;
+    padding-right: 0.5vw !important;
+}
+
+.current a {
+    border-bottom: 2.5px solid var(--secondary);
+}
+
+.external {
+
+    background:
+        linear-gradient(
+            to left, var(--secondary) 0%,
+            var(--secondary) 100%
+        );
+
+    background-size: 0px 0px;
+    background-position: 0 100%;
+    background-repeat: repeat-y;
+    transition: background-size .5s;
+
+    text-decoration: none;
+    color: var(--secondary);
+}
+
+.external:hover {
+    background-size: 100% 100px;
+}
+
+.external:hover a {
+    color: var(--primary) !important;
+}
+
+/* FOOTER */
+#footer-div-site {
+
+    height: 6vh;
+    padding: 1%;
+    display: block;
+    margin-top: auto;
+
+    background-color: var(--tertiary);
+}
+
+#copyright {
+    width: 100%;
+    display: block !important;
+    float: left !important;
+}
+
+#copyright-text {
+    color: var(--primary);
+    float: left !important;
+    font-family: var(--secondary-font) !important;
+}
+
+#copyright-sy {
+    color: var(--primary);
+    float: left !important;
+    margin-left: 5px !important;
+    font-family: var(--secondary-font) !important;
+}
+
+/* HOME */
+
+#home-content-div {
+    min-height: 100vh;
+    max-height: 100vh;
+
+    padding: 25vh 10% 10%;
+
+    background-color: var(--primary);
+}
+
+#h1-hello {
+    width: auto;
+    margin: 0 0 5vh 0 !important;
+    padding: 0 !important;
+
+    white-space: pre-line;
+    font-size: 110px;
+    text-align: justify;
+    color: var(--secondary);
+    font-family: var(--main-font) !important;
+}
+
+#h2-hello {
+    width: auto;
+    font-size: 50px;
+    padding-left: 0.5vw;
+    padding-right: 1vw;
+    text-align: justify;
+    display: inline-block;
+    color: var(--primary);
+    font-family: var(--fourth-font) !important;
+    background-color: var(--secondary);
+}
+
+/* ABOUT */
+
+#about-content-div {
+    min-height: 100vh;
+    max-height: 100vh;
+    background-color: var(--primary);
+}
+
+#about-div-in {
+
+    top: 0;
+    min-width: 50vw;
+    max-width: 50vw;
+    min-height: 100vh;
+    max-height: 100vh;
+
+    float: left;
+    clear: both;
+
+    margin: 0 !important;
+
+    padding: 15vh 7.5% 7.5%;
+
+    color: var(--secondary);
+}
+
+#about-div-in img {
+    width: 15vw;
+    height: 15vw;
+    margin-left: 10vw;
+    margin-bottom: 5vh;
+    border-radius: 100%;
+    border: 3px double var(--secondary);
+}
+
+#about-summ-over-div {
+    height: 60vh;
+    max-height: 60vh;
+    overflow-y: scroll;
+    padding-right: 2vw;
+    scrollbar-width: thin;
+    scrollbar-color: var(--secondary) var(--primary);
+}
+
+/* Width */
+#about-summ-over-div::-webkit-scrollbar {
+    width: 5px;
+    background: var(--primary);
+}
+
+/* Handle */
+#about-summ-over-div::-webkit-scrollbar-thumb {
+    background: var(--secondary);
+}
+
+#about-tag {
+
+    margin-bottom: 7vh;
+    padding-right: 2.5vw;
+
+    font-size: 50px;
+    color: var(--secondary) !important;
+    font-family: var(--main-font) !important;
+}
+
+.about-page-expl {
+
+    max-width: 100%;
+
+    text-align: justify;
+    color: var(--secondary) !important;
+
+    font-size: 18px;
+    word-break: break-word;
+    font-family: var(--secondary-font) !important;
+}
+
+/* CONTACTS */
+
+#contacts-div-in {
+
+    min-width: 50vw;
+    max-width: 50vw;
+    min-height: 100vh;
+    max-height: 100vh;
+
+    margin: 0 0 0 auto;
+
+    padding: 35vh 7.5% 7.5%;
+
+    color: var(--primary);
+    background-color: var(--secondary);
+}
+
+#contacts-summ-over-div {
+    height: 60vh;
+    max-height: 60vh;
+}
+
+#contacts-tag {
+
+    margin-bottom: 7.5vh;
+
+    font-size: 50px;
+    text-align: center;
+    color: var(--primary) !important;
+    font-family: var(--main-font) !important;
+}
+
+.contact {
+
+    margin-bottom: 1vh;
+
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+    color: var(--primary) !important;
+    font-family: var(--fourth-font) !important;
+}
+
+/* PROJECT PAGE */
+
+#project-content-div {
+    min-height: 94vh;
+    max-height: 94vh;
+
+    margin: 0 !important;
+}
+
+#project-page-div {
+
+    top: 0;
+    width: 50vw;
+    min-height: 94vh;
+    max-height: 94vh;
+
+    float: left;
+    clear: both;
+
+    margin: 0 !important;
+
+    padding: 15vh 7.5% 7.5%;
+
+    color: var(--primary);
+}
+
+#project-code-div {
+
+    top: 0;
+    width: 50vw;
+    min-height: 94vh;
+    max-height: 94vh;
+
+    margin: 0 0 0 auto;
+
+    padding: 15vh 3% 5% 5%;
+
+    background-color: var(--secondary);
+}
+
+#project-page-proj-code {
+
+    padding: 0.2% 0.5%;
+    display:inline-block;
+
+    background:
+        linear-gradient(
+            to left, var(--secondary) 0%,
+            var(--secondary) 100%
+        );
+
+    background-size: 0 0;
+    background-position: 0 100%;
+    background-repeat: repeat-y;
+    transition: background-size .75s;
+
+    color: var(--primary);
+    font-family: var(--main-font) !important;
+}
+
+#project-page-proj-name {
+
+    padding: 0.5%;
+    margin-top: -0.25%;
+    display:inline-block;
+
+    background:
+        linear-gradient(
+            to left, var(--secondary) 0%,
+            var(--secondary) 100%
+        );
+
+    background-size: 0px 0px;
+    background-position: 0 100%;
+    background-repeat: repeat-y;
+    transition: background-size .75s;
+
+    color: var(--primary);
+    font-family: var(--main-font) !important;
+}
+
+.proj-page-effect {
+
+    background-size: 100% 10px !important;
+    color: var(--primary) !important;
+}
+
+#project-page-proj-text {
+
+    max-width: 30vw;
+    min-height: 40vh;
+    max-height: 40vh;
+    padding-top: 7.5%;
+
+    text-align: justify;
+    overflow: hidden !important;
+    color: var(--secondary) !important;
+
+    font-size: 19px;
+    font-family: var(--secondary-font) !important;
+}
+
+#proj-button-row {
+    max-width: 30vw;
+
+    margin: 3.5vh 0 0;
+}
+
+.project-button {
+
+    width: 7.5vw;
+    padding: 5px 10px;
+
+    border: 0;
+    color: var(--primary);
+
+    background:
+        linear-gradient(
+            to left, var(--secondary) 0%,
+            var(--secondary) 100%
+        );
+
+    background-size: 0 0;
+    background-position: 0 100%;
+    background-repeat: repeat-y;
+    transition: background-size .75s;
+
+    font-size: 17px;
+    font-family: var(--fourth-font) !important;
+}
+
+#prev-butt {
+    margin-right: 15vw;
+}
+
+#prev-butt:focus{outline:none;}
+#next-butt:focus{outline:none;}
+
+#github-div {
+    margin: 3.5vh 0 0;
+}
+
+#github-text {
+    margin-right: 1vw;
+
+    font-size: 17px;
+    color: var(--secondary);
+    border-bottom: 2px solid var(--secondary);
+    font-family: var(--secondary-font) !important;
+}
+
+.project-button-effect {
+    background-size: 100% 10px !important;
+}
+
+#project-code-over-div {
+    height: 64vh;
+    max-height: 65vh;
+    overflow-y: scroll;
+    padding-right: 2vw;
+    scrollbar-width: thin;
+    scrollbar-color: var(--primary) var(--secondary);
+}
+
+/* Width */
+#project-code-over-div::-webkit-scrollbar {
+    width: 5px;
+    background: var(--secondary);
+}
+
+/* Handle */
+#project-code-over-div::-webkit-scrollbar-thumb {
+    background: var(--primary);
+}
+
+#code-tag {
+
+    margin-bottom: 3vh;
+    padding-right: 2.5vw;
+
+    font-size: 35px;
+    color: var(--primary) !important;
+    font-family: var(--main-font) !important;
+}
+
+.subsession-title {
+    margin-top: 3.5vh;
+    margin-bottom: .5vh;
+
+    font-size: 20px;
+    color: var(--primary) !important;
+    font-family: var(--tertiary-font) !important;
+}
+
+.project-page-proj-expl {
+
+    max-width: 100%;
+
+    text-align: justify;
+    color: var(--primary) !important;
+
+    font-size: 16px;
+    word-break: break-word;
+    font-family: var(--secondary-font) !important;
+}
+
+.project-page-proj-code {
+
+    max-width: 100%;
+
+    padding: 5% 7.5%;
+
+    font-size: 12px;
+    line-height: 1.4;
+    text-align: justify;
+    word-break: break-word;
+    color: var(--code-foreground) !important;
+    font-family: var(--tertiary-font) !important;
+    background-color: var(--code-background) !important;
+}

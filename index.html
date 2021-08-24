@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <link rel="icon" href="Imgs/icon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inria+Sans&family=Major+Mono+Display&display=swap" rel="stylesheet">
+
+        <!-- JQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" type="text/css" href="index.css">
+
+        <title>Luca Cassenti</title>
+    </head>
+    <body>
+    <div id="main-page-div">
+
+        <!-- DONE -->
+        <nav class="navbar navbar-expand-lg">
+            <div id="brand_div" class="d-none d-md-none d-lg-block d-xl-block">
+
+                <div class="row" id="navbar-row">
+
+                    <a class="navbar-brand">LUCA CASSENTI</a>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item current">
+                                <a class="nav-link" id="h-link" href="#home-content-div">HOME</a>
+                            </li>
+                            <li class="nav-item external">
+                                <a class="nav-link" id="a-link" href="#about-content-div">ABOUT</a>
+                            </li>
+                            <li class="nav-item external">
+                                <a class="nav-link" id="p-link" href="#project-content-div">PROJECTS</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+
+        <!-- DONE -->
+        <div id="home-content-div" class="d-none d-md-none d-lg-block d-xl-block">
+            <h1 id="h1-hello">LUCA<hr>
+                              CASSENTI</h1>
+            <h2 id="h2-hello">
+                SOFTWARE DEVELOPER
+            </h2>
+        </div>
+
+        <!-- DONE -->
+        <div id="about-content-div" class="d-none d-md-none d-lg-block d-xl-block">
+
+            <div id="about-div-in">
+
+                <h3 id="about-tag">ABOUT</h3>
+
+                <!--<img src="Imgs/me.jpg">-->
+
+                <div id="about-summ-over-div">
+                    <p class="about-page-expl" id="about-page-explaination">
+                        Born in Milan (IT), I'm currently pursuing a Bachelor's degree in Computer Science
+                        and Engeneering, at the Techinical School of Milan.
+                        <br><br>
+                        In the meantime, since 2019, I've been an active member of Dynamis PRC, a Formula Students team,
+                        as a Software Developer for the Driverless Department.
+                        <br><br>
+                        Starting in 2021, I'm also the team leader of a student-only game development team, Pixelmug.
+                        We are currently developing our first game prototype.
+                        <br><br>
+                        My dream is to one day work full time in the game development industry.
+                    </p>
+                </div>
+
+            </div>
+
+            <div id="contacts-div-in">
+
+                <h3 id="contacts-tag">CONTACTS</h3>
+
+                <div id="contacts-summ-over-div">
+                    <a href="mailto:luca[dot]cassenti[at]protonmail[dot]ch">
+                        <h4 class="contact" id="email_contact">EMAIL</h4>
+                    </a>
+                    <a target="_blank" href="https://github.com/nixetheus">
+                        <h4 class="contact" id="github_contact">GITHUB</h4>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- DONE -->
+        <div id="project-content-div" class="d-none d-md-none d-lg-block d-xl-block">
+
+            <div id="project-page-div">
+                <h2 id="project-page-proj-name"></h2>
+                <br>
+                <h3 id="project-page-proj-code"></h3>
+                <br>
+                <p id="project-page-proj-text"></p>
+                <div class="row" id="proj-button-row">
+                    <button id="prev-butt" class="project-button">PREVIOUS</button>
+                    <button id="next-butt" class="project-button">NEXT</button>
+                </div>
+                <div class="row" id="github-div">
+                    <a id="proj-github" href="" target="_blank" style="text-decoration: none">
+                        <h5 id="github-text">ON GITHUB</h5>
+                    </a>
+                </div>
+            </div>
+
+            <div id="project-code-div">
+                <h3 id="code-tag">CODE</h3>
+                <div id="project-code-over-div"></div>
+            </div>
+
+        </div>
+
+        <!-- DONE -->
+        <div id="footer-div-site">
+            <div id="copyright">
+                <div id="copyright-text" class="d-none d-md-none d-lg-block d-xl-block">
+                    <h6>Luca Cassenti</h6>
+                  </div>
+                <div id="copyright-sy">
+                    <h6 id="year">&#169; </h6>
+                    <script> document.getElementById("year").innerHTML = "&#169 " + new Date().getFullYear(); </script>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    </body>
+</html>
