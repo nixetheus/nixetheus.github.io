@@ -219,8 +219,8 @@ let projects = [
             "Born in 2016, CATE has been my first big project since I have started programming. " +
             "All in all, it is a simple code and text editor, with a few more complex features " +
             "like a primitve form of syntax highlighting and code completition." +
-            "<img class='project-page-proj-img' alt='cate-png' src='Imgs/projects/cate.png'>" +
             "</p>\n" +
+            "<img class='project-page-proj-img' alt='cate-png' src='Imgs/projects/cate.png'>" +
             "<h5 class=\"subsession-title\">CUSTOMIZATION</h5>\n" +
             "<p class=\"project-page-proj-expl\">\n" +
             "Customization was a big during the creation of CATE, mostly because I love playing with " +
