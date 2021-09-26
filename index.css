@@ -528,7 +528,8 @@ body {
     color: var(--primary) !important;
 
     font-size: 16px;
-    word-break: break-word;
+    word-break: break-all;
+    text-align-last: left;
     font-family: var(--secondary-font) !important;
 }
 

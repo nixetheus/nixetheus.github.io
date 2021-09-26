@@ -227,7 +227,20 @@ let projects = [
             "colors and this was a fun way to add variety to my project" +
             "</p>\n" +
             "<p class=\"project-page-proj-code\">\n" +
-            "" +
+            "<br>" +
+            "if color == 'DARK':<br>" +
+            "&nbsp;&nbsp;colors = {<br>" +
+            "&nbsp;&nbsp;&nbsp;&nbsp;0: '#191919',  # ln_color<br>" +
+            "&nbsp;&nbsp;&nbsp;&nbsp;1: '#55FBF7',  # for_color<br>" +
+            "&nbsp;&nbsp;&nbsp;&nbsp;2: '#DEDEDE',  # text_color<br>" +
+            "&nbsp;&nbsp;&nbsp;&nbsp;3: '#242424',  # files_color<br>" +
+            "&nbsp;&nbsp;&nbsp;&nbsp;4: '#494949',  # emb_ter_col1<br>" +
+            "&nbsp;&nbsp;&nbsp;&nbsp;...<br>" +
+            "elif color == 'BLUE':<br>" +
+            "elif color == 'ICEY':<br>" +
+            "elif color == 'WHITE':<br>" +
+            "elif color == 'RANDOM':<br>" +
+            "&nbsp;&nbsp;...<br>" +
             "</p>\n" +
             "<p class=\"project-page-proj-expl\">\n" +
             "</p>"
