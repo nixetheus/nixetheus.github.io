@@ -417,7 +417,7 @@ body {
 
     max-width: 30vw;
     min-height: 40vh;
-    max-height: 40vh;
+    max-height: 41vh;
     padding-top: 7.5%;
 
     text-align: justify;
@@ -545,4 +545,10 @@ body {
     color: var(--code-foreground) !important;
     font-family: var(--tertiary-font) !important;
     background-color: var(--code-background) !important;
+}
+
+.project-page-proj-img {
+    width: 100%;
+    margin-top: 5%;
+    border: 5px solid var(--primary);
 }
