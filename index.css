@@ -554,7 +554,7 @@ body::-webkit-scrollbar-thumb {
 #h1-hello-small {
     margin: 0 0 5% 0 !important;
     padding: 0 !important;
-    font-size: 9vh;
+    font-size: 7.5vh;
     text-align: center;
     color: var(--secondary);
     font-family: var(--main-font) !important;
@@ -562,7 +562,7 @@ body::-webkit-scrollbar-thumb {
 
 #h2-hello-small {
     width: 75%;
-    font-size: 3.5vh;
+    font-size: 3vh;
     margin-left: 12.5%;
     padding: 1% 5%;
     text-align: center;
@@ -603,7 +603,7 @@ body::-webkit-scrollbar-thumb {
 
     margin-bottom: 1vh;
 
-    font-size: 4vh;
+    font-size: 3vh;
     text-align: center;
     text-decoration: underline;
     color: var(--primary) !important;
