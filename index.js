@@ -5,6 +5,15 @@ $(document).ready(function(){
     // GLOBAL
     let number = 0;
 
+    // Mobile scrollbar
+    $(function() {
+        let isMobile = window.matchMedia("only screen and (max-width: 991px)").matches;
+
+        if (isMobile) {
+            $("body").css("overflow", "visible");
+        }
+    });
+
     // 0 - 1 Function
     (function( $ ){
         $.fn.matrix_text = function(elem, prev_text, text_array_index) {
@@ -66,6 +75,14 @@ $(document).ready(function(){
     }, number);
     setTimeout(function() {
         $(document).matrix("#h2-hello", 4, 50);
+    }, number);
+
+    // HOME-SMALL START
+    setTimeout(function() {
+        $(document).matrix("#h1-hello-small", 3, 75, 1);
+    }, number);
+    setTimeout(function() {
+        $(document).matrix("#h2-hello-small", 4, 50);
     }, number);
 
     let h1_hello_text = $("#h1-hello").html();

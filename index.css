@@ -22,8 +22,21 @@ html {
 }
 
 body {
-    overflow: visible;  /* TODO: fix */
+    overflow: hidden;  /* TODO: fix */
+    scrollbar-width: thin;
+    scrollbar-color: var(--primary) var(--secondary);
     background-color: var(--primary) !important;
+}
+
+/* Width */
+body::-webkit-scrollbar {
+    width: 7px;
+    background: var(--primary);
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+    background: var(--tertiary);
 }
 
 /* HEADER */
@@ -534,23 +547,24 @@ body {
 
 #home-content-div-small {
     min-height: 80vh;
-    padding: 25vh 20% 20%;
+    padding: 25vh 10% 10%;
     background-color: var(--primary);
 }
 
 #h1-hello-small {
     margin: 0 0 5% 0 !important;
     padding: 0 !important;
-    font-size: 11vw;
+    font-size: 9vh;
     text-align: center;
     color: var(--secondary);
     font-family: var(--main-font) !important;
 }
 
 #h2-hello-small {
-    font-size: 6vw;
-    padding-left: 0;
-    padding-right: 0;
+    width: 75%;
+    font-size: 3.5vh;
+    margin-left: 12.5%;
+    padding: 1% 5%;
     text-align: center;
     display: inline-block;
     color: var(--primary);
@@ -559,6 +573,7 @@ body {
 }
 
 #more-small {
+    width: 100%;
     font-size: 60px;
     color: var(--secondary);
     text-align: center;
@@ -568,7 +583,8 @@ body {
 /* CONTACT SMALL */
 #contact-div-small {
     width: 100%;
-    min-height: 55vh;
+    min-height: 50vh;
+    max-height: 55vh;
     background-color: var(--secondary);
 }
 
@@ -577,6 +593,7 @@ body {
 }
 
 #contacts-tag-small {
+    font-size: 5vh;
     margin-bottom: 15%;
     text-align: center;
     font-family: var(--main-font) !important;
@@ -586,7 +603,7 @@ body {
 
     margin-bottom: 1vh;
 
-    font-size: 5vw;
+    font-size: 4vh;
     text-align: center;
     text-decoration: underline;
     color: var(--primary) !important;
