@@ -22,8 +22,7 @@ html {
 }
 
 body {
-
-    overflow: hidden;
+    overflow: visible;  /* TODO: fix */
     background-color: var(--primary) !important;
 }
 
@@ -173,7 +172,7 @@ body {
 
 #h2-hello {
     width: auto;
-    font-size: 6vw;
+    font-size: 5vw;
     padding-left: 0.5vw;
     padding-right: 1vw;
     text-align: justify;
@@ -529,4 +528,67 @@ body {
     width: 100%;
     margin-top: 5%;
     border: 5px solid var(--primary);
+}
+
+/* HOME SMALL */
+
+#home-content-div-small {
+    min-height: 80vh;
+    padding: 25vh 20% 20%;
+    background-color: var(--primary);
+}
+
+#h1-hello-small {
+    margin: 0 0 5% 0 !important;
+    padding: 0 !important;
+    font-size: 11vw;
+    text-align: center;
+    color: var(--secondary);
+    font-family: var(--main-font) !important;
+}
+
+#h2-hello-small {
+    font-size: 6vw;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    display: inline-block;
+    color: var(--primary);
+    font-family: var(--fourth-font) !important;
+    background-color: var(--secondary);
+}
+
+#more-small {
+    font-size: 60px;
+    color: var(--secondary);
+    text-align: center;
+}
+
+
+/* CONTACT SMALL */
+#contact-div-small {
+    width: 100%;
+    min-height: 55vh;
+    background-color: var(--secondary);
+}
+
+#contacts-div-in-small {
+    padding: 20%;
+}
+
+#contacts-tag-small {
+    margin-bottom: 15%;
+    text-align: center;
+    font-family: var(--main-font) !important;
+}
+
+.contact-small {
+
+    margin-bottom: 1vh;
+
+    font-size: 5vw;
+    text-align: center;
+    text-decoration: underline;
+    color: var(--primary) !important;
+    font-family: var(--fourth-font) !important;
 }
