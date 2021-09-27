@@ -10,7 +10,7 @@ $(document).ready(function(){
         let isMobile = window.matchMedia("only screen and (max-width: 991px)").matches;
 
         if (isMobile) {
-            $("body").css("overflow", "visible");
+            $("body").css("overflow-y", "visible");
         }
     });
 
