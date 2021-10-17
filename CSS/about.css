@@ -1,0 +1,141 @@
+/* ABOUT */
+
+#about-content-div {
+    min-height: 100vh;
+    max-height: 100vh;
+    background-color: var(--primary);
+}
+
+#about-div-in {
+
+    top: 0;
+    min-width: 50vw;
+    max-width: 50vw;
+    min-height: 100vh;
+    max-height: 100vh;
+
+    float: left;
+    clear: both;
+
+    margin: 0 !important;
+
+    padding: 15vh 7.5% 7.5%;
+
+    color: var(--secondary);
+}
+
+#about-summ-over-div {
+    height: 60vh;
+    max-height: 60vh;
+    overflow-y: scroll;
+    padding-right: 2vw;
+    scrollbar-width: thin;
+    scrollbar-color: var(--secondary) var(--primary);
+}
+
+/* Width */
+#about-summ-over-div::-webkit-scrollbar {
+    width: 5px;
+    background: var(--primary);
+}
+
+/* Handle */
+#about-summ-over-div::-webkit-scrollbar-thumb {
+    background: var(--secondary);
+}
+
+#about-tag {
+
+    margin-bottom: 7vh;
+    padding-right: 2.5vw;
+
+    font-size: 50px;
+    color: var(--secondary) !important;
+    font-family: var(--main-font) !important;
+}
+
+.about-page-expl {
+
+    max-width: 100%;
+
+    text-align: justify;
+    color: var(--secondary) !important;
+
+    font-size: 18px;
+    word-break: break-word;
+    font-family: var(--secondary-font) !important;
+}
+
+/* CONTACTS */
+
+#contacts-div-in {
+
+    min-width: 50vw;
+    max-width: 50vw;
+    min-height: 100vh;
+    max-height: 100vh;
+
+    margin: 0 0 0 auto;
+
+    padding: 35vh 7.5% 7.5%;
+
+    color: var(--primary);
+    background-color: var(--secondary);
+}
+
+#contacts-summ-over-div {
+    height: 60vh;
+    max-height: 60vh;
+}
+
+#contacts-tag {
+
+    margin-bottom: 7.5vh;
+
+    font-size: 50px;
+    text-align: center;
+    color: var(--primary) !important;
+    font-family: var(--main-font) !important;
+}
+
+.contact {
+
+    margin-bottom: 1vh;
+
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+    color: var(--primary) !important;
+    font-family: var(--fourth-font) !important;
+}
+
+/* SMALL */
+
+#contact-div-small {
+    width: 100%;
+    min-height: 70vh;
+    max-height: 70vh;
+    background-color: var(--secondary);
+}
+
+#contacts-div-in-small {
+    padding: 20%;
+}
+
+#contacts-tag-small {
+    font-size: 5vh;
+    margin-bottom: 15%;
+    text-align: center;
+    font-family: var(--main-font) !important;
+}
+
+.contact-small {
+
+    margin-bottom: 1vh;
+
+    font-size: 4vh;
+    text-align: center;
+    text-decoration: underline;
+    color: var(--primary) !important;
+    font-family: var(--fourth-font) !important;
+}

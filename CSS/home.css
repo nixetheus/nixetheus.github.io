@@ -1,0 +1,102 @@
+/* HOME */
+
+#home-content-div {
+
+    min-height: 100vh;
+    max-height: 100vh;
+    padding: 25vh 10% 10%;
+
+    background-color: var(--primary);
+}
+
+#h1-hello-name {
+    width: auto;
+    padding: 0 !important;
+    margin: 0 0 -1vh 0 !important;
+
+    font-size: 8.5vw;
+    text-align: justify;
+    white-space: pre-line;
+    color: var(--secondary);
+    font-family: var(--main-font) !important;
+}
+
+#h1-hello-surname {
+    width: auto;
+    padding: 0 !important;
+    margin: 0 0 5vh 0 !important;
+
+    font-size: 8.5vw;
+    text-align: justify;
+    white-space: pre-line;
+    color: var(--secondary);
+    font-family: var(--main-font) !important;
+}
+
+#h2-hello {
+    width: auto;
+    font-size: 3.75vw;
+    padding-right: 1vw;
+    padding-left: 0.5vw;
+    text-align: justify;
+    display: inline-block;
+    color: var(--primary);
+    background-color: var(--secondary);
+    font-family: var(--fourth-font) !important;
+}
+
+/* SMALL */
+
+#home-content-div-small {
+
+    min-height: 70vh;
+    max-height: 70vh;
+    padding: 25vh 10% 10%;
+
+    background-color: var(--primary);
+}
+
+#h1-hello-name-small {
+
+    width: auto;
+    padding: 0 !important;
+    margin: 0 0 -1vh 0 !important;
+
+    font-size: 9vw;
+    text-align: center;
+    white-space: pre-line;
+    color: var(--secondary);
+    font-family: var(--main-font) !important;
+}
+
+#h1-hello-surname-small {
+
+    width: auto;
+    margin: 0 0 5vh 0 !important;
+    padding: 0 !important;
+
+    font-size: 9vw;
+    text-align: center;
+    white-space: pre-line;
+    color: var(--secondary);
+    font-family: var(--main-font) !important;
+}
+
+#h2-hello-small {
+
+    width: auto;
+    font-size: 5vw;
+    text-align: center;
+    padding-right: 1vw;
+    padding-left: 0.5vw;
+    color: var(--primary);
+    background-color: var(--secondary);
+    font-family: var(--fourth-font) !important;
+}
+
+#more-small {
+    width: 100%;
+    color: white;
+    font-size: 48px;
+    text-align: center;
+}

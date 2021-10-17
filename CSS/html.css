@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "Hack";
+    src: url("../Fonts/Hack-Regular.ttf");
+}
+
+:root {
+    --primary: #0B132B; /* #00868B;  1b2845 */
+    --secondary: #EBEBD3;
+    --tertiary: #F2EFE9;
+
+    --code-foreground: #000036;
+    --code-background: #FCBB41;
+
+    --main-font: 'Major Mono Display', monospace;
+    --secondary-font: 'Inria Sans', sans-serif;
+    --tertiary-font: 'Hack', sans-serif;
+    --fourth-font: 'Share Tech Mono', monospace;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow: hidden;  /* TODO: fix */
+    scrollbar-width: thin;
+    scrollbar-color: var(--primary) var(--secondary);
+    background-color: var(--primary) !important;
+}
+
+/* Width */
+body::-webkit-scrollbar {
+    width: 7px;
+    background: var(--primary);
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+    background: var(--tertiary);
+}
