@@ -22,7 +22,7 @@
     padding-left: 1.5vw !important;
     padding-right: 2vw !important;
 
-    background-color: var(--primary) !important;
+    background-color: rgba(0, 0, 0, 0.05) !important;
 }
 
 .navbar-brand {
@@ -46,6 +46,7 @@
     float: left;
     padding: 0 !important;
 
+    font-weight: bold;
     color: var(--secondary);
     font-size: 17px !important;
     font-family: var(--secondary-font) !important;
@@ -78,7 +79,7 @@
 }
 
 .external:hover a {
-    color: var(--primary) !important;
+    color: lightpink !important;
 }
 
 /* FOOTER */
