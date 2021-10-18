@@ -65,7 +65,7 @@ $(document).ready(function(){
     let text_n = 0;
     let interval = 125;
     let text_n_small = 0;
-    let titles_array = ["AN ASPIRING GAMEDEV", "A SOFTWARE PROGRAMMER", "CURIOUS", "HUMAN", "ME"]
+    let titles_array = ["AN ASPIRING GAME DEVELOPER", "A SOFTWARE PROGRAMMER", "CURIOUS", "HUMAN", "ME"]
 
     function title_change(n, elem) {
         
@@ -102,6 +102,7 @@ $(document).ready(function(){
     $("#project-page-proj-text").hide();
 
     $("#p-link").click(function() {
+        currentProject = 0;
         $(this).change_project();
 
         $("#code-tag").text("CODE");

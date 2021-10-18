@@ -2,7 +2,7 @@ let currentProject = 0;
 // PROJECT DIV MAIN FUNCTION START
 (function( $ ){
 
-    $.fn.change_project = function(changeIndex=1) {
+    $.fn.change_project = function(changeIndex=0) {
 
         currentProject += changeIndex;
         if (currentProject < 0) currentProject = projects.length - 1;
@@ -42,7 +42,8 @@ let currentProject = 0;
         }, 750);
 
         setTimeout(function() {
-            $("#project-page-proj-text").text(projects[currentProject]["desc"]);
+            $("#project-page-proj-text").children("*").remove();
+            $("#project-page-proj-text").append(projects[currentProject]["desc"]);
             $("#project-page-proj-text").slideDown(1250);
         }, 2000);
 
