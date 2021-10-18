@@ -22,7 +22,7 @@
     padding-left: 1.5vw !important;
     padding-right: 2vw !important;
 
-    background-color: rgba(0, 0, 0, 0.05) !important;
+    background-color: rgba(0, 0, 0, 0.1) !important;
 }
 
 .navbar-brand {
@@ -90,7 +90,7 @@
     display: block;
     margin-top: auto;
 
-    background-color: var(--tertiary);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 #copyright {
@@ -102,7 +102,7 @@
 #copyright-text {
     float: left !important;
 
-    color: var(--primary);
+    color: var(--secondary);
     font-family: var(--secondary-font) !important;
 }
 
@@ -110,7 +110,7 @@
     float: left !important;
     margin-left: 5px !important;
 
-    color: var(--primary);
+    color: var(--secondary);
     font-family: var(--secondary-font) !important;
 }
 

@@ -49,7 +49,7 @@ $(document).ready(function(){
         $(document).matrix("#h1-hello-surname", 8, 75, 1);
     }, number);
     setTimeout(function() {
-        $(document).matrix("#h2-hello", 4, 50);
+        //$(document).matrix("#h2-hello", 4, 50);
     }, number);
 
     // HOME-SMALL START
@@ -57,7 +57,7 @@ $(document).ready(function(){
         $(document).matrix("#h1-hello-small", 3, 75, 1);
     }, number);
     setTimeout(function() {
-        $(document).matrix("#h2-hello-small", 4, 50);
+        //$(document).matrix("#h2-hello-small", 4, 50);
     }, number);
 
     let h1_hello_text_n = $("#h1-hello-name").html();
@@ -71,7 +71,7 @@ $(document).ready(function(){
 
         $(document).matrix("#h1-hello-name", 4, 75, 1);
         $(document).matrix("#h1-hello-surname", 4, 75, 1);
-        $(document).matrix("#h2-hello", 2, 90);
+        // $(document).matrix("#h2-hello", 2, 90);
     });
 
     // ABOUT START
@@ -80,6 +80,7 @@ $(document).ready(function(){
         $(document).matrix("#contacts-tag", 7, 75);
         $(document).matrix("#email_contact", 7, 75);
         $(document).matrix("#github_contact", 7, 75);
+        $(document).matrix("#linkedin_contact", 7, 75);
     }, number + 100);
 
     let about_tag_text = $("#about-tag").html();

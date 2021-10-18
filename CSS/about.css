@@ -3,7 +3,9 @@
 #about-content-div {
     min-height: 100vh;
     max-height: 100vh;
-    background-color: var(--primary);
+    /*background-color: var(--primary);*/
+    /*background-size: 100%;
+    background-image: url("../Imgs/about.jpg");*/
 }
 
 #about-div-in {
@@ -22,11 +24,12 @@
     padding: 15vh 7.5% 7.5%;
 
     color: var(--secondary);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 #about-summ-over-div {
-    height: 60vh;
-    max-height: 60vh;
+    height: 55vh;
+    max-height: 55vh;
     overflow-y: scroll;
     padding-right: 2vw;
     scrollbar-width: thin;
@@ -77,15 +80,24 @@
 
     margin: 0 0 0 auto;
 
-    padding: 35vh 7.5% 7.5%;
+    padding: 25vh 7.5% 7.5%;
 
     color: var(--primary);
-    background-color: var(--secondary);
+    /*background-color: var(--secondary);*/
 }
 
 #contacts-summ-over-div {
     height: 60vh;
     max-height: 60vh;
+}
+
+#contacts-square {
+
+    height: 52.5vh;
+    padding: 10vh 0 0;
+
+    border: 1px dotted black;
+    background-color: rgba(var(--secondary-rgb), 0.6);
 }
 
 #contacts-tag {
@@ -115,7 +127,6 @@
     width: 100%;
     min-height: 70vh;
     max-height: 70vh;
-    background-color: var(--secondary);
 }
 
 #contacts-div-in-small {
