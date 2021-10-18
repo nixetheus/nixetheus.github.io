@@ -57,6 +57,14 @@
     font-family: var(--main-font) !important;
 }
 
+#about-summ-over-div h2 {
+    margin: 0;
+    font-size: 25px;
+    word-spacing: -15px;
+    color: var(--secondary) !important;
+    font-family: var(--main-font) !important;
+}
+
 .about-page-expl {
 
     max-width: 100%;
@@ -66,17 +74,16 @@
 
     font-size: 18px;
     word-break: break-word;
-    font-family: var(--secondary-font) !important;
+    font-family: var(--fifth-font) !important;
 }
 
 .about-a {
-    color: #111;
+    color: white;
     font-weight: bold;
-    text-decoration: underline dotted;
 }
 
 .about-a:hover {
-    color: #333;
+    color: #222;
     font-weight: bold;
     text-decoration: underline dotted;
 }

@@ -10,6 +10,39 @@ $(document).ready(function(){
         }
     });
 
+    // Desktop scroll
+    /*let curr_page = 0;
+    $("body").not(".about-page-expl").bind('mousewheel', function(e) {
+        let delta = e.originalEvent.wheelDelta;
+        if (delta < -15) {
+            switch (curr_page) {
+                case 0:
+                    $(document).scrollTop($("#about-content-div").offset().top);
+                    curr_page += 1;
+                    break;
+                case 1:
+                    $(document).scrollTop($("#project-content-div").offset().top);
+                    curr_page += 1;
+                    break;
+                default:
+                    break;
+            }
+        } else if (delta > 15) {
+            switch (curr_page) {
+                case 1:
+                    $(document).scrollTop($("#home-content-div").offset().top);
+                    curr_page -= 1;
+                    break;
+                case 2:
+                    $(document).scrollTop($("#about-content-div").offset().top);
+                    curr_page -= 1;
+                    break;
+                default:
+                    break;
+            }
+        }
+    });*/
+
     // NAVBAR START
     $(".nav-link").click(function() {
 

@@ -5,8 +5,8 @@ let projects = [
         "code": "0000 0000",
         "github": "https://github.com/nixetheus/CATE",
         "desc": "CATE, the Code And Text Editor, is a side project of mine from when I was in high school.\n" +
-            "As the name implies its main use is that of an editor, particularly for python and c, since\n" +
-            "syntax highlighting and code completition is mainly available for these languages.\n" +
+            "As the name implies its main use is that of an editor, particularly for Python and C, since\n" +
+            "syntax highlighting and code completion is mainly available for these languages.\n" +
             "The editor is completely written in Python using Tkinter and has a lot of customization options,\n" +
             "particularly in the form of themes and color changes.\n" +
             "It features a primitive internal python interpreter.\n",

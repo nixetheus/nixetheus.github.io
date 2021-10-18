@@ -100,7 +100,7 @@
     color: var(--secondary) !important;
 
     font-size: 19px;
-    font-family: var(--secondary-font) !important;
+    font-family: var(--fifth-font) !important;
 }
 
 /* Width */
@@ -139,6 +139,7 @@
     transition: background-size .75s;
 
     font-size: 17px;
+    font-weight: bold;
     font-family: var(--fourth-font) !important;
 }
 
@@ -157,7 +158,6 @@
     margin-right: 1vw;
 
     font-size: 17px;
-    font-weight: bold;
     color: var(--secondary);
     border-bottom: 2px solid var(--secondary);
     font-family: var(--secondary-font) !important;
@@ -238,5 +238,5 @@
 .project-page-proj-img {
     width: 100%;
     margin-top: 5%;
-    border: 5px solid var(--tertiary);
+    border: 3px solid black;
 }

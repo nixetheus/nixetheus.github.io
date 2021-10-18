@@ -101,7 +101,7 @@ $(document).ready(function(){
         $("#github_contact").html(github_contact_text);
         $(document).matrix("#github_contact", 7, 60);
 
-        $("linkedin_contact").html(linkedin_contact_text);
+        $("#linkedin_contact").html(linkedin_contact_text);
         $(document).matrix("#linkedin_contact", 7, 60);
     });
 
