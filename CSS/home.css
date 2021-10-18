@@ -40,7 +40,7 @@
     display: inline-block;
     font-weight: bold;
     color: var(--secondary);
-    font-family: var(--fourth-font) !important;
+    font-family: var(--secondary-font) !important;
 }
 
 #me {
@@ -48,14 +48,14 @@
     font-size: 3.5vw;
     font-weight: bold;
     color: var(--secondary);
-    font-family: var(--fourth-font) !important;
+    font-family: var(--secondary-font) !important;
 }
 
 #blinking_write {
     font-size: 3.5vw;
     font-weight: bold;
     color: var(--secondary);
-    font-family: var(--fourth-font) !important;
+    font-family: var(--secondary-font) !important;
     animation: blink 0.75s linear infinite;
 }
 
@@ -102,34 +102,35 @@
 
 #h2-hello-small {
 
-    margin: 0;
     width: auto;
     font-size: 5vw;
     text-align: center;
-    padding-right: -1vw;
-    padding-left: 2.5vw;
+    padding-left: 1vw;
     font-weight: bold;
     padding-top: 0.75vw;
+    margin: 0;
     color: var(--secondary);
-    font-family: var(--fourth-font) !important;
+    font-family: var(--secondary-font) !important;
 
     display: inline-block;
 }
 
 #me-small {
+    margin-right: 0;
     padding-left: 0.75vw;
     font-size: 5vw;
     font-weight: bold;
     color: var(--secondary);
-    font-family: var(--fourth-font) !important;
+    font-family: var(--secondary-font) !important;
     display: inline-block;
 }
 
 #blinking_write-small {
+    margin-left: 0;
     font-size: 5vw;
     font-weight: bold;
     color: var(--secondary);
-    font-family: var(--fourth-font) !important;
+    font-family: var(--secondary-font) !important;
     animation: blink 0.75s linear infinite;
     display: inline-block;
 }

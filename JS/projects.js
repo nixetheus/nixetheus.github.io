@@ -2,7 +2,7 @@ let currentProject = 0;
 // PROJECT DIV MAIN FUNCTION START
 (function( $ ){
 
-    $.fn.change_project = function(changeIndex=0) {
+    $.fn.change_project = function(changeIndex=1) {
 
         currentProject += changeIndex;
         if (currentProject < 0) currentProject = projects.length - 1;

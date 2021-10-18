@@ -39,5 +39,21 @@ let projects = [
             "</p>\n" +
             "<p class=\"project-page-proj-expl\">\n" +
             "</p>"
+    },
+
+    {
+        "name": "website",
+        "code": "0000 0001",
+        "github": "",
+        "desc": "Born as a way to have a personal presence on the web, this website has evolved to"
+                + "also showcase my projects and my personal design style, which is noticeable in everything, "
+                + "from colors, to font and images.\n"
+                + "I started web developing in 2014, as a way to get started with programming, while having" +
+                " fun and creating aesthetically pleasing visuals.",
+        "specs": "<p class=\"project-page-proj-expl\">\n" +
+            "Born in 2016, CATE has been my first big project since I have started programming. " +
+            "All in all, it is a simple code and text editor, with a few more complex features " +
+            "like a primitve form of syntax highlighting and code completition." +
+            "</p>\n"
     }
 ];

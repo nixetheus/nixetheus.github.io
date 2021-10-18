@@ -37,7 +37,7 @@
     margin: 0 0 0 auto;
 
     padding: 12.5vh 3% 5% 5%;
-    background-color: rgba(var(--secondary-rgb), 0.8);
+    background-color: rgba(var(--secondary-rgb), 0.85);
 }
 
 #project-page-proj-code {
@@ -100,7 +100,7 @@
     color: var(--secondary) !important;
 
     font-size: 19px;
-    font-family: var(--fifth-font) !important;
+    font-family: var(--secondary-font) !important;
 }
 
 /* Width */
@@ -140,7 +140,7 @@
 
     font-size: 17px;
     font-weight: bold;
-    font-family: var(--fourth-font) !important;
+    font-family: var(--secondary-font) !important;
 }
 
 #prev-butt {
@@ -202,8 +202,9 @@
     margin-bottom: .5vh;
 
     font-size: 20px;
+    font-weight: bold;
     color: var(--tertiary) !important;
-    font-family: var(--tertiary-font) !important;
+    font-family: var(--secondary-font) !important;
 }
 
 .project-page-proj-expl {
@@ -225,12 +226,12 @@
 
     padding: 5% 7.5%;
 
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.4;
     text-align: justify;
     word-break: break-word;
     color: var(--code-foreground) !important;
-    font-family: var(--tertiary-font) !important;
+    font-family: var(--code-font) !important;
     background-color: rgba(var(--code-background-rgb), 0.85);
     border-radius: 3px;
 }

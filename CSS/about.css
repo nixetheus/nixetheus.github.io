@@ -68,13 +68,14 @@
 .about-page-expl {
 
     max-width: 100%;
+    hyphens: auto;
 
     text-align: justify;
     color: var(--secondary) !important;
 
     font-size: 18px;
     word-break: break-word;
-    font-family: var(--fifth-font) !important;
+    font-family: var(--secondary-font) !important;
 }
 
 .about-a {
@@ -144,7 +145,7 @@
     font-size: 30px;
     text-align: center;
     color: #333 !important;
-    font-family: var(--fourth-font) !important;
+    font-family: var(--secondary-font) !important;
 }
 
 #contacts-summ-over-div a:hover {
@@ -185,7 +186,7 @@
     font-size: 5vw;
     text-align: center;
     color: #333 !important;
-    font-family: var(--fourth-font) !important;
+    font-family: var(--secondary-font) !important;
 }
 
 #contacts-summ-over-div-small a:hover {
