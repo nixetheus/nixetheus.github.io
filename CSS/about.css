@@ -139,11 +139,13 @@
 
 #contact-div-small {
     width: 100%;
-    background-color: rgba(var(--secondary-rgb), 0.85);
 }
 
 #contacts-div-in-small {
-    padding: 25vh 20%;
+    margin: 5% 5%;
+    padding: 12.5vh 15%;
+    border: 2px dotted var(--tertiary);
+    background-color: rgba(var(--secondary-rgb), 0.6);
 }
 
 #contacts-tag-small {
@@ -167,7 +169,7 @@
 }
 
 #contacts-summ-over-div-small a:hover {
-    text-decoration: 3px underline dotted var(--primary);
+    text-decoration: 3px underline dotted var(--tertiary);
 }
 
 #contacts-summ-over-div-small a:hover:after {
