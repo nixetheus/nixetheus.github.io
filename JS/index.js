@@ -35,9 +35,9 @@ $(document).ready(function(){
     let titles_array = ["AN ASPIRING GAMEDEV", "A SOFTWARE PROGRAMMER", "CURIOUS", "HUMAN", "ME"]
 
     function title_change(n, elem) {
-
-        text_n += 1;
+        
         title = titles_array[n];
+        n += 1;
 
         wait = interval + (interval * title.length);
 
@@ -60,7 +60,7 @@ $(document).ready(function(){
                 }
             }, 1000);
 
-            tOut = setTimeout(function () {title_change(text_n, elem)}, wait * 1.5 + 2000);
+            tOut = setTimeout(function () {title_change(n, elem)}, wait * 1.5 + 2000);
         }
     }
     setTimeout(function () {title_change(text_n, "#h2-hello")}, 1500);
