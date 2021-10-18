@@ -34,10 +34,17 @@
 #h2-hello {
     width: auto;
     font-size: 3.5vw;
+    padding-left: 0;
     padding-right: -0.25vw;
-    padding-left: 0.5vw;
     text-align: justify;
     display: inline-block;
+    font-weight: bold;
+    color: var(--secondary);
+    font-family: var(--fourth-font) !important;
+}
+
+#me {
+    font-size: 3.5vw;
     font-weight: bold;
     color: var(--secondary);
     font-family: var(--fourth-font) !important;
