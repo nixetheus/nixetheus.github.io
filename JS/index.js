@@ -6,6 +6,7 @@ $(document).ready(function(){
 
         if (isMobile) {
             $("body").css("overflow-y", "visible");
+            $("#navbar-row").css("background-color", "rgba(33, 33, 33, 1)");
         }
     });
 
@@ -30,9 +31,10 @@ $(document).ready(function(){
     let title;
     let text_n = 0;
     let interval = 125;
-    let titles_array = ["AN ASPIRING GAMEDEV", "A SOFTWARE PROGRAMMER", "CURIOUS", "HUMAN"]
+    let text_n_small = 0;
+    let titles_array = ["AN ASPIRING GAMEDEV", "A SOFTWARE PROGRAMMER", "CURIOUS", "HUMAN", "ME"]
 
-    function title_change(n) {
+    function title_change(n, elem) {
 
         text_n += 1;
         title = titles_array[n];
@@ -41,7 +43,7 @@ $(document).ready(function(){
 
         jQuery.each(title.split(''), function (i, letter) {
             setTimeout(function () {
-                $('#h2-hello').html($('#h2-hello').html() + letter);
+                $(elem).html($(elem).html() + letter);
             }, interval * i);
         });
         let i = title.length;
@@ -50,18 +52,19 @@ $(document).ready(function(){
             setTimeout(function () {
                 while (i >= 0) {
                     setTimeout(function () {
-                        let text = $('#h2-hello').html();
+                        let text = $(elem).html();
                         let length = text.length - 1;
-                        $('#h2-hello').html(text.substring(0, length));
+                        $(elem).html(text.substring(0, length));
                     }, wait + (interval/3 * i));
                     i--;
                 }
             }, 1000);
 
-            tOut = setTimeout(function () {title_change(text_n)}, wait * 1.5 + 2000);
+            tOut = setTimeout(function () {title_change(text_n, elem)}, wait * 1.5 + 2000);
         }
     }
-    setTimeout(function () {title_change(text_n)}, 1500);
+    setTimeout(function () {title_change(text_n, "#h2-hello")}, 1500);
+    setTimeout(function () {title_change(text_n_small, "#h2-hello-small")}, 1500);
 
     // PROJECT START
     $("#project-page-proj-text").hide();

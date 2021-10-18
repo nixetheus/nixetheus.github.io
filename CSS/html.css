@@ -27,7 +27,7 @@ body {
     overflow: hidden;
     scrollbar-width: thin;
     scrollbar-color: var(--primary) var(--secondary);
-    background-color: var(--primary) !important;
+    background-color: transparent !important;
 
     background-size: 100% 100%;
     background-image: url("../Imgs/body.jpg");
@@ -36,7 +36,7 @@ body {
 /* Width */
 body::-webkit-scrollbar {
     width: 7px;
-    background: var(--primary);
+    border: 1px solid var(--tertiary);
 }
 
 /* Handle */
