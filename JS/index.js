@@ -37,7 +37,6 @@ $(document).ready(function(){
     function title_change(n, elem) {
         
         title = titles_array[n];
-        n += 1;
 
         wait = interval + (interval * title.length);
 
@@ -60,7 +59,7 @@ $(document).ready(function(){
                 }
             }, 1000);
 
-            tOut = setTimeout(function () {title_change(n, elem)}, wait * 1.5 + 2000);
+            tOut = setTimeout(function () {title_change(n + 1, elem)}, wait * 1.5 + 2000);
         }
     }
     setTimeout(function () {title_change(text_n, "#h2-hello")}, 1500);
