@@ -89,6 +89,13 @@
 #contacts-summ-over-div {
     height: 60vh;
     max-height: 60vh;
+    text-align: center;
+}
+
+#contacts-summ-over-div a {
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
 }
 
 #contacts-square {
@@ -96,17 +103,17 @@
     height: 52.5vh;
     padding: 10vh 0 0;
 
-    border: 1px dotted black;
-    background-color: rgba(var(--secondary-rgb), 0.6);
+    border: 2px dotted black;
+    background-color: rgba(var(--secondary-rgb), 0.5);
 }
 
 #contacts-tag {
 
+    text-align: center;
     margin-bottom: 7.5vh;
 
     font-size: 50px;
-    text-align: center;
-    color: var(--primary) !important;
+    color: #363636 !important;
     font-family: var(--main-font) !important;
 }
 
@@ -116,9 +123,16 @@
 
     font-size: 30px;
     text-align: center;
-    text-decoration: underline;
-    color: var(--primary) !important;
+    color: #333 !important;
     font-family: var(--fourth-font) !important;
+}
+
+#contacts-summ-over-div a:hover {
+    text-decoration: underline dotted var(--primary);
+}
+
+#contacts-summ-over-div a:hover:after {
+    text-decoration: none;
 }
 
 /* SMALL */

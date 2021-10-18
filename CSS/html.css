@@ -4,13 +4,13 @@
 }
 
 :root {
-    --primary: #FBA39F; /* #00868B;  1b2845 */
+    --primary: #ffbab7; /* #00868B;  1b2845 */
     --secondary: #EBEBD3;
     --secondary-rgb: 235, 235, 211;
-    --tertiary: #F2EFE9;
+    --tertiary: #333333;
 
-    --code-foreground: #000036;
-    --code-background: #FCBB41;
+    --code-foreground: white;
+    --code-background: #8B9EB7;
 
     --main-font: 'Major Mono Display', monospace;
     --secondary-font: 'Inria Sans', sans-serif;

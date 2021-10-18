@@ -25,11 +25,12 @@ $(document).ready(function(){
     });
 
     // HOME CHANGING TITLE
+    let tOut;
     let wait;
     let title;
     let text_n = 0;
     let interval = 125;
-    let titles_array = ["AN ASPIRING GAMEDEV", "A SOFTWARE PROGRAMMER", "HUMAN"]
+    let titles_array = ["AN ASPIRING GAMEDEV", "A SOFTWARE PROGRAMMER", "CURIOUS", "HUMAN"]
 
     function title_change(n) {
 
@@ -52,16 +53,15 @@ $(document).ready(function(){
                         let text = $('#h2-hello').html();
                         let length = text.length - 1;
                         $('#h2-hello').html(text.substring(0, length));
-                    }, wait + (interval * i));
+                    }, wait + (interval/3 * i));
                     i--;
                 }
             }, 1000);
 
-            setTimeout(function () {title_change(text_n)}, wait * 2 + 2000);
+            tOut = setTimeout(function () {title_change(text_n)}, wait * 1.5 + 2000);
         }
     }
-
-    title_change(text_n);
+    setTimeout(function () {title_change(text_n)}, 1500);
 
     // PROJECT START
     $("#project-page-proj-text").hide();

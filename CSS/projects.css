@@ -179,12 +179,12 @@
 /* Width */
 #project-code-over-div::-webkit-scrollbar {
     width: 5px;
-    background: var(--secondary);
+    border: 1px solid var(--tertiary);
 }
 
 /* Handle */
 #project-code-over-div::-webkit-scrollbar-thumb {
-    background: var(--primary);
+    background: var(--tertiary);
 }
 
 #code-tag {
@@ -193,7 +193,7 @@
     padding-right: 2.5vw;
 
     font-size: 35px;
-    color: var(--primary) !important;
+    color: var(--tertiary) !important;
     font-family: var(--main-font) !important;
 }
 
@@ -202,7 +202,7 @@
     margin-bottom: .5vh;
 
     font-size: 20px;
-    color: var(--primary) !important;
+    color: var(--tertiary) !important;
     font-family: var(--tertiary-font) !important;
 }
 
@@ -211,7 +211,7 @@
     max-width: 100%;
 
     text-align: justify;
-    color: var(--primary) !important;
+    color: var(--tertiary) !important;
 
     font-size: 16px;
     word-break: break-word;
@@ -232,10 +232,11 @@
     color: var(--code-foreground) !important;
     font-family: var(--tertiary-font) !important;
     background-color: var(--code-background) !important;
+    border-radius: 10px;
 }
 
 .project-page-proj-img {
-    width: 100%;
+    width: 1%;
     margin-top: 5%;
     border: 5px solid var(--primary);
 }

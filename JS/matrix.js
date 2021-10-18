@@ -67,7 +67,6 @@ $(document).ready(function(){
 
         $("#h1-hello-name").html(h1_hello_text_n);
         $("#h1-hello-surname").html(h1_hello_text_s);
-        $("#h2-hello").html(h2_hello_text);
 
         $(document).matrix("#h1-hello-name", 4, 75, 1);
         $(document).matrix("#h1-hello-surname", 4, 75, 1);
@@ -87,7 +86,7 @@ $(document).ready(function(){
     let contacts_tag_text = $("#contacts-tag").html();
     let email_contact_text = $("#email_contact").html();
     let github_contact_text = $("#github_contact").html();
-    let linkedin_contact_text = $("linkedin_contact").html();
+    let linkedin_contact_text = $("#linkedin_contact").html();
 
     $("#a-link").click(function() {
         $("#about-tag").html(about_tag_text);

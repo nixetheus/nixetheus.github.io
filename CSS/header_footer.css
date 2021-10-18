@@ -47,7 +47,7 @@
     padding: 0 !important;
 
     font-weight: bold;
-    color: var(--secondary);
+    color: var(--tertiary);
     font-size: 17px !important;
     font-family: var(--secondary-font) !important;
 }
@@ -59,7 +59,7 @@
 }
 
 .current a {
-    color: var(--secondary);
+    color: var(--tertiary);
     border-bottom: 3px solid var(--secondary);
 }
 
@@ -79,7 +79,7 @@
 }
 
 .external:hover a {
-    color: lightpink !important;
+    color: var(--tertiary) !important;
 }
 
 /* FOOTER */
