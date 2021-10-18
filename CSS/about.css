@@ -24,7 +24,7 @@
     padding: 15vh 7.5% 7.5%;
 
     color: var(--secondary);
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 #about-summ-over-div {
@@ -39,7 +39,7 @@
 /* Width */
 #about-summ-over-div::-webkit-scrollbar {
     width: 5px;
-    background: var(--primary);
+    border: 1px solid var(--secondary);
 }
 
 /* Handle */

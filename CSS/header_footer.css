@@ -54,16 +54,14 @@
 
 .current {
     padding: 0 !important;
-    padding-left: 0.5vw !important;
-    padding-right: 0.5vw !important;
 }
 
-.current a {
+.current li {
     color: var(--tertiary);
     border-bottom: 3px solid var(--secondary);
 }
 
-.external {
+.external li {
 
     background: linear-gradient(to left, var(--secondary) 0%, var(--secondary) 100%) repeat-y 0 100%;
 
@@ -71,14 +69,14 @@
     transition: background-size .5s;
 
     text-decoration: none;
-    color: var(--secondary);
+    color: var(--tertiary);
 }
 
-.external:hover {
+.external li:hover {
     background-size: 100% 100px;
 }
 
-.external:hover a {
+.external:hover li {
     color: var(--tertiary) !important;
 }
 

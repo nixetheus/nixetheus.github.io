@@ -21,14 +21,12 @@ let currentProject = 0;
         $("#project-page-proj-code").removeClass("proj-page-effect");
         $("#project-page-proj-name").removeClass("proj-page-effect");
 
-        $(".project-button").show();
         $("#proj-button-row").show();
-        $("#project-page-proj-code").show();
-        $("#project-page-proj-name").show();
 
         setTimeout(function() {
 
             $("#project-page-proj-code").text(projects[currentProject]["code"]);
+            $("#project-page-proj-code").show();
             $("#project-page-proj-code").addClass("proj-page-effect");
             $(document).matrix("#project-page-proj-code", 4, 75);
 
@@ -37,6 +35,7 @@ let currentProject = 0;
         setTimeout(function() {
 
             $("#project-page-proj-name").text(projects[currentProject]["name"]);
+            $("#project-page-proj-name").show();
             $("#project-page-proj-name").addClass("proj-page-effect");
             $(document).matrix("#project-page-proj-name", 4, 75);
 
@@ -48,6 +47,7 @@ let currentProject = 0;
         }, 2000);
 
         setTimeout(function() {
+            $(".project-button").show();
             $(".project-button").addClass("project-button-effect");
         }, 2500);
 

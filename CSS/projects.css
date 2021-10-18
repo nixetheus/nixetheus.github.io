@@ -21,10 +21,10 @@
 
     margin: 0 !important;
 
-    padding: 15vh 7.5% 7.5%;
+    padding: 12.5vh 7.5% 7.5%;
 
     color: var(--primary);
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 #project-code-div {
@@ -36,8 +36,8 @@
 
     margin: 0 0 0 auto;
 
-    padding: 15vh 3% 5% 5%;
-    background-color: rgba(var(--secondary-rgb), 0.9);
+    padding: 12.5vh 3% 5% 5%;
+    background-color: rgba(var(--secondary-rgb), 0.8);
 }
 
 #project-page-proj-code {
@@ -56,7 +56,7 @@
     background-repeat: repeat-y;
     transition: background-size .75s;
 
-    color: var(--primary);
+    color: var(--tertiary);
     font-family: var(--main-font) !important;
 }
 
@@ -77,14 +77,14 @@
     background-repeat: repeat-y;
     transition: background-size .75s;
 
-    color: var(--primary);
+    color: var(--tertiary);
     font-family: var(--main-font) !important;
 }
 
 .proj-page-effect {
 
     background-size: 100% 10px !important;
-    color: var(--primary) !important;
+    color: var(--tertiary) !important;
 }
 
 #project-page-proj-text {
@@ -92,7 +92,7 @@
     max-width: 30vw;
     min-height: 40vh;
     max-height: 41vh;
-    padding-top: 7.5%;
+    margin-top: 7.5%;
     padding-right: 2vw;
 
     text-align: justify;
@@ -106,7 +106,7 @@
 /* Width */
 #project-page-proj-text::-webkit-scrollbar {
     width: 5px;
-    background: var(--primary);
+    border: 1px solid var(--secondary);
 }
 
 /* Handle */
@@ -116,7 +116,6 @@
 
 #proj-button-row {
     max-width: 30vw;
-
     margin: 3.5vh 0 0;
 }
 
@@ -126,7 +125,7 @@
     padding: 5px 10px;
 
     border: 0;
-    color: var(--primary);
+    color: var(--tertiary);
 
     background:
             linear-gradient(
@@ -158,6 +157,7 @@
     margin-right: 1vw;
 
     font-size: 17px;
+    font-weight: bold;
     color: var(--secondary);
     border-bottom: 2px solid var(--secondary);
     font-family: var(--secondary-font) !important;
@@ -231,12 +231,12 @@
     word-break: break-word;
     color: var(--code-foreground) !important;
     font-family: var(--tertiary-font) !important;
-    background-color: var(--code-background) !important;
-    border-radius: 10px;
+    background-color: rgba(var(--code-background-rgb), 0.85);
+    border-radius: 3px;
 }
 
 .project-page-proj-img {
-    width: 1%;
+    width: 100%;
     margin-top: 5%;
-    border: 5px solid var(--primary);
+    border: 5px solid var(--tertiary);
 }

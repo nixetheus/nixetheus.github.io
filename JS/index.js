@@ -10,7 +10,7 @@ $(document).ready(function(){
     });
 
     // NAVBAR START
-    $(".nav-item").click(function() {
+    $(".nav-link").click(function() {
 
         $(this).addClass("current");
         $(this).removeClass("external");
