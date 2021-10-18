@@ -69,6 +69,18 @@
     font-family: var(--secondary-font) !important;
 }
 
+.about-a {
+    color: #111;
+    font-weight: bold;
+    text-decoration: underline dotted;
+}
+
+.about-a:hover {
+    color: #333;
+    font-weight: bold;
+    text-decoration: underline dotted;
+}
+
 /* CONTACTS */
 
 #contacts-div-in {
@@ -119,6 +131,7 @@
 
 .contact {
 
+    width: auto;
     margin-bottom: 1vh;
 
     font-size: 30px;
@@ -128,7 +141,7 @@
 }
 
 #contacts-summ-over-div a:hover {
-    text-decoration: underline dotted var(--primary);
+    text-decoration: underline dotted var(--tertiary);
 }
 
 #contacts-summ-over-div a:hover:after {
