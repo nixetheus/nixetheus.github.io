@@ -158,6 +158,46 @@
 
 /* SMALL */
 
+#about-div-in-small {
+
+    width: 100vw;
+    margin: 0 !important;
+    padding: 15vh 12.5%;
+
+    color: var(--secondary);
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#about-summ-over-div-small {
+    padding-right: 2vw;
+    scrollbar-width: thin;
+    scrollbar-color: var(--secondary) var(--primary);
+}
+
+#about-summ-over-div-small h2 {
+    margin: 0 0 3vh 0;
+    font-size: 6vh;
+    word-spacing: -15px;
+    text-align: center;
+    color: var(--secondary) !important;
+    font-family: var(--main-font) !important;
+}
+
+.about-page-expl-small {
+
+    max-width: 100%;
+    hyphens: auto;
+
+    text-align: justify;
+    color: var(--secondary) !important;
+
+    font-size: 18px;
+    word-break: break-word;
+    font-family: var(--secondary-font) !important;
+}
+
+/* ------------------------------------------------ */
+
 #contact-div-small {
     width: 100%;
 }
@@ -174,7 +214,7 @@
     text-align: center;
     margin-bottom: 10vh;
 
-    font-size: 9vw;
+    font-size: 8vh;
     color: #363636 !important;
     font-family: var(--main-font) !important;
 }
@@ -183,7 +223,7 @@
 
     margin-bottom: 1vh;
 
-    font-size: 5vw;
+    font-size: 6vh;
     text-align: center;
     color: #333 !important;
     font-family: var(--secondary-font) !important;
