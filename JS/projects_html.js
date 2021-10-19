@@ -16,7 +16,10 @@ let projects = [
             "Autonomous Vehicle itself, given that all the software responsible for the correct " +
             "movements of the vehicle is all managed by the ASU itself.</p>",
         "specs":
-            "<h5 class=\"subsession-title\">CODE UNDER NDA</h5>\n"
+            "<h5 class=\"subsession-title\">CODE UNDER NDA</h5><hr>\n" +
+            "<h5 class=\"subsession-title\">WEBSITE</h5><br>\n" +
+            "<embed type='text/html' src='https://www.dynamisprc.com' width='100%' height='100%'" +
+            " style='2px solid black'>"
     },
 
     {
