@@ -83,7 +83,8 @@
 /* FOOTER */
 #footer-div-site {
 
-    height: 6vh;
+    height: 100%;
+    max-height: 6vh;
     padding: 1%;
     display: block;
     margin-top: auto;
@@ -92,23 +93,30 @@
 }
 
 #copyright {
-    width: 100%;
-    float: left !important;
     display: block !important;
 }
 
 #copyright-text {
+
+    margin: 0;
     float: left !important;
 
     color: var(--secondary);
     font-family: var(--secondary-font) !important;
 }
 
+#copyright-text h6 {
+    margin: 0;
+}
+
 #copyright-sy {
-    float: left !important;
     margin-left: 5px !important;
 
     color: var(--secondary);
     font-family: var(--secondary-font) !important;
+}
+
+#copyright-sy h6 {
+    margin: 0;
 }
 
