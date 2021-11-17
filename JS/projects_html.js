@@ -23,8 +23,18 @@ let projects = [
     },
 
     {
-        "name": "Cate",
+        "name": "Game Boy Emulator",
         "code": "0000 0001",
+        "github": "https://github.com/nixetheus/GBEmulator",
+        "desc":
+            "<p>TODO</p>",
+        "specs":
+            "<p>TODO</p>"
+    },
+
+    {
+        "name": "Cate",
+        "code": "0000 0010",
         "github": "https://github.com/nixetheus/CATE",
         "desc": "<p>CATE, the Code And Text Editor, is a side project of mine from when I was in high school.<br><br>" +
             "As the name implies its main use is that of an editor, particularly for Python and C, since" +
@@ -65,7 +75,7 @@ let projects = [
 
     {
         "name": "website",
-        "code": "0000 0010",
+        "code": "0000 0011",
         "github": "",
         "desc":
             "<p>Born as a way to have a personal presence on the web, this website has evolved to"
