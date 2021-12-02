@@ -107,10 +107,12 @@
     font-size: 5vw;
     text-align: center;
     padding-left: 1vw;
+    padding-right: 1vw;
     font-weight: bold;
     padding-top: 0.75vw;
     margin: 0;
-    color: var(--secondary);
+    color: var(--primary);
+    background-color: var(--secondary);
     font-family: var(--secondary-font) !important;
 
     display: inline-block;
@@ -130,7 +132,7 @@
     margin-left: 0;
     font-size: 5vw;
     font-weight: bold;
-    color: var(--secondary);
+    color: transparent;
     font-family: var(--secondary-font) !important;
     animation: blink 0.75s linear infinite;
     display: inline-block;

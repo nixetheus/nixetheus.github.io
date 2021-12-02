@@ -52,12 +52,14 @@ let currentProject = 0;
             $(".project-button").addClass("project-button-effect");
         }, 2500);
 
-        setTimeout(function() {
-            $("#github-text").show();
-            $("#github-text").text("GITHUB");
-            $("#proj-github").attr("href", projects[currentProject]["github"]);
-            $(document).matrix("#github-text", 3, 50);
-        }, 3000);
+        if (projects[currentProject]["github"] !== "") {
+            setTimeout(function () {
+                $("#github-text").show();
+                $("#github-text").text("GITHUB");
+                $("#proj-github").attr("href", projects[currentProject]["github"]);
+                $(document).matrix("#github-text", 3, 50);
+            }, 3000);
+        }
 
         setTimeout(function() {
             $("#code-tag").show();

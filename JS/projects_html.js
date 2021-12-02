@@ -2,8 +2,18 @@
 let projects = [
 
     {
-        "name": "ASU Software",
+        "name": "PIXELMUG",
         "code": "0000 0000",
+        "github": "",
+        "desc":
+            "<p>TODO</p>",
+        "specs":
+            "<p>TODO</p>"
+    },
+
+    {
+        "name": "ASU Software",
+        "code": "0000 0001",
         "github": "",
         "desc":
             "<p>The Autonomous System Unit (ASU) is a part of the necessary control system for the autonomous system " +
@@ -23,8 +33,18 @@ let projects = [
     },
 
     {
+        "name": "Blender 3D Models",
+        "code": "0000 0010",
+        "github": "",
+        "desc":
+            "<p>TODO</p>",
+        "specs":
+            "<p>TODO</p>"
+    },
+
+    {
         "name": "Game Boy Emulator",
-        "code": "0000 0001",
+        "code": "0000 0011",
         "github": "https://github.com/nixetheus/GBEmulator",
         "desc":
             "<p>TODO</p>",
@@ -34,7 +54,7 @@ let projects = [
 
     {
         "name": "Cate",
-        "code": "0000 0010",
+        "code": "0000 0100",
         "github": "https://github.com/nixetheus/CATE",
         "desc": "<p>CATE, the Code And Text Editor, is a side project of mine from when I was in high school.<br><br>" +
             "As the name implies its main use is that of an editor, particularly for Python and C, since" +
@@ -74,8 +94,8 @@ let projects = [
     },
 
     {
-        "name": "website",
-        "code": "0000 0011",
+        "name": "Personal website",
+        "code": "0000 0101",
         "github": "",
         "desc":
             "<p>Born as a way to have a personal presence on the web, this website has evolved to"
