@@ -63,7 +63,7 @@ let currentProject = 0;
 
         setTimeout(function() {
             $("#code-tag").show();
-            $("#code-tag").text("CODE");
+            $("#code-tag").text(projects[currentProject]["specs-name"]);
             $(document).matrix("#code-tag", 3, 50);
         }, 3500);
 
