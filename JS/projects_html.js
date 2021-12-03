@@ -8,13 +8,24 @@ let projects = [
         "specs-name": "INFO",
         "desc":
             "<p>" +
-            "TODO" +
+            "...???.... " +
+            "<br><br>" +
+            "This is why in 2020 I decided to <b>create a team of students to design and develop small " +
+            "videogames</b> as a way to start moving our first steps in the industry while still in university." +
+            "<br><br>" +
+            "After a year of attempts I managed to gather enough interest and little after that Pixelmug was born, " +
+            "and we started building <b>our first prototype</b>." +
+            "<br><br>" +
+            "You can find our website and projects " +
+            "<a target='_blank' href='' class='about-a'>here</a>." +
             "</p>",
 
         "specs":
 
-            "<p>" +
-            "TODO" +
+            "<p class=\"project-page-proj-expl\">" +
+            "The team consists of 11 people, divided between three main departments with one manager each. " +
+            "As the team leader my role is that of supervising the advancement of each project and coordinating " +
+            "everyone." +
             "</p>" +
 
             "<h5 class='subsession-title'>ART & ANIMATION</h5>" +
@@ -23,7 +34,19 @@ let projects = [
             "TODO" +
             "</p>" +
 
+            "<img class='project-page-proj-img' alt='cate-png' src='../Imgs/projects/Pixelmug/02_PERSONAGGI.jpg' " +
+            "alt='Character creation' " +
+            "title='Character creation'>" +
+
+            "<p class='project-page-proj-expl'>" +
+            "TODO" +
+            "</p>" +
+
             "<h5 class='subsession-title'>PROGRAMMING & LEVEL DESIGN</h5>" +
+
+            "<img class='project-page-proj-img' alt='cate-png' src='../Imgs/projects/web1.png' " +
+            "alt='Character creation' " +
+            "title='Character creation'>" +
 
             "<p class='project-page-proj-expl'>" +
             "TODO" +
@@ -35,7 +58,12 @@ let projects = [
             "TODO" +
             "</p>" +
 
+            "<audio src='/media/cc0-audio/t-rex-roar.mp3'> Your browser does not support the <code>audio</code> element." +
+            "</audio>" +
+
             "<h5 class='subsession-title'>PROJECTS</h5>" +
+
+            "<h6 class='subproject-title'>DEMO</h6>" +
 
             "<p class='project-page-proj-expl'>" +
             "TODO" +
