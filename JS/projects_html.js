@@ -8,66 +8,95 @@ let projects = [
         "specs-name": "INFO",
         "desc":
             "<p>" +
-            "...???.... " +
+            "Ever since I was a kid, I've been in love with video games and the endless worlds you could find in " +
+            "them, from 3D universes filled with magic or robot armies to deep and emotional stories narrated " +
+            "through beautiful pixel art and handcrafted soundtracks. And being part of creating these worlds has " +
+            "been a dream of mine for quite a long time." +
             "<br><br>" +
             "This is why in 2020 I decided to <b>create a team of students to design and develop small " +
             "videogames</b> as a way to start moving our first steps in the industry while still in university." +
             "<br><br>" +
-            "After a year of attempts I managed to gather enough interest and little after that Pixelmug was born, " +
-            "and we started building <b>our first prototype</b>." +
+            "After a year of attempts I managed to gather enough interest, and little after that <b>Pixelmug</b> " +
+            "was born, and we started building <b>our first prototype game</b>." +
             "<br><br>" +
-            "You can find our website and projects " +
-            "<a target='_blank' href='' class='about-a'>here</a>." +
+            "[You can find our more info on us and our projects on our " +
+            "<a target='_blank' href='https://pixelmug.github.io/' class='about-a'>website</a>]" +
             "</p>",
 
         "specs":
 
             "<p class=\"project-page-proj-expl\">" +
             "The team consists of 11 people, divided between three main departments with one manager each. " +
-            "As the team leader my role is that of supervising the advancement of each project and coordinating " +
-            "everyone." +
+            "As the team leader and founder my role is that of supervising the advancement of each project " +
+            "and coordinating everyone." +
             "</p>" +
 
             "<h5 class='subsession-title'>ART & ANIMATION</h5>" +
 
             "<p class='project-page-proj-expl'>" +
-            "TODO" +
+            "Currently the largest part of the team, Art & Animation has a mix of 3D and 2D artist collaborating " +
+            "to create each and every graphical asset for our projects, from 2D sprites to 3D models." +
             "</p>" +
 
-            "<img class='project-page-proj-img' alt='cate-png' src='../Imgs/projects/Pixelmug/02_PERSONAGGI.jpg' " +
-            "alt='Character creation' " +
-            "title='Character creation'>" +
+            "<img class='project-page-proj-img' alt='cate-png' src='../Imgs/projects/Pixelmug/art_image.jpg' " +
+            "alt='Character desgin illustration' " +
+            "title='Character desgin illustration'>" +
 
             "<p class='project-page-proj-expl'>" +
-            "TODO" +
+            "This part of the team is also tasked with designing and creating the user experience in our games in " +
+            "the form of menues, HUDs, icons, ect..." +
             "</p>" +
 
             "<h5 class='subsession-title'>PROGRAMMING & LEVEL DESIGN</h5>" +
 
-            "<img class='project-page-proj-img' alt='cate-png' src='../Imgs/projects/web1.png' " +
-            "alt='Character creation' " +
-            "title='Character creation'>" +
-
             "<p class='project-page-proj-expl'>" +
-            "TODO" +
+            "Game scripts, characters' movements, enemies and object placing, and much more is all handled by the " +
+            "Programming & Level Design Department. The main tools we use to program and bring to life our game are " +
+            "the Unity game engine and the C# programming language." +
+            "<br><br>" +
+            "Here a snippet from one of our scripts:" +
+            "</p>" +
+
+            "<p class=\"project-page-proj-code\">" +
+
+            "<br>" +
+            "public class User : MonoBehaviour<br>" +
+            "{<br>" +
+            "&nbsp;&nbsp;&nbsp;&nbsp;public GameObject playerPrefab;<br><br><br>" +
+            "&nbsp;&nbsp;&nbsp;&nbsp;[Header(\"SO classes\")];<br>" +
+            "&nbsp;&nbsp;&nbsp;&nbsp;public ClassSO ranger;<br>" +
+            "&nbsp;&nbsp;&nbsp;&nbsp;public ClassSO reaper;<br>" +
+            "...<br>" +
+
             "</p>" +
 
             "<h5 class='subsession-title'>SOUND & MUSIC</h5>" +
 
             "<p class='project-page-proj-expl'>" +
-            "TODO" +
+            "The Sound & Music department is tasked with the creation of every in-game track and sound effect. This " +
+            "is done by using professional sound recording and mixing software and by fine-tuning every detail " +
+            "and each instrument to perfectly match the desidered atmosphere for each part of our games." +
             "</p>" +
-
-            "<audio src='/media/cc0-audio/t-rex-roar.mp3'> Your browser does not support the <code>audio</code> element." +
-            "</audio>" +
 
             "<h5 class='subsession-title'>PROJECTS</h5>" +
 
-            "<h6 class='subproject-title'>DEMO</h6>" +
+            "<h6 class='subproject-title'>PROTOTYPE #1</h6>" +
 
             "<p class='project-page-proj-expl'>" +
-            "TODO" +
-            "</p>"
+            "Our first game consists in a local multiplayer shooter, featuring 2 vs 2 teams engaged in time-limited " +
+            "capture the flag matches. " +
+            "The game is set in a 2D, platform-based arena and winning is based on how long the flag is held by " +
+            "each team. " +
+            "<br><br>" +
+            "The backstory revolves around the collapse of society and the clash between a highly advanced " +
+            "civilization and a magical, natural-based tribe. " +
+
+            "</p>" +
+
+            "<img class='project-page-proj-img' alt='cate-png' src='../Imgs/projects/Pixelmug/demo_image.png' " +
+            "alt='Background setting for our demo' " +
+            "title='Background setting for our demo'>"
+
     },
 
     {
@@ -126,11 +155,11 @@ let projects = [
         "specs-name": "CODE",
         "desc":
             "<p>" +
-            "The Game Boy has been my first ever console when I was a child. So when I got into game design and I " +
-            "wanted to know how old console worked, emulating it was my big objective." +
+            "<b>The Game Boy</b> has been my first ever console when I was a child. So when I got into game design, " +
+            "and I wanted to know how old console worked, emulating it was my first big objective." +
             "<br><br>" +
-            "After first emulating a CHIP-8, I dove into a detailed Game Boy manual containing all the information " +
-            "about specifics and hardware details, plus all the opcodes in ASSEMBLY format." +
+            "After first emulating a <b>CHIP-8</b>, I dove into a detailed Game Boy manual containing all the information " +
+            "about specifics and hardware details, plus all the opcodes in assembly format." +
             "<br><br>" +
             "Although I never got to finish it (yet), this project is one of my favourites ever because of its " +
             "uniqueness and the fun it has been to virually simulate the hardware of the console and of its " +
@@ -206,7 +235,7 @@ let projects = [
             "<p>" +
             "CATE (Code And Text Editor) is a side project I programmed when I was in high school." +
             "<br><br>" +
-            "As the name implies its main use is that of a code editor, particularly for Python and C." +
+            "As the name implies its main use is that of a code editor, particularly for Python and C. " +
             "More complex, IDE-like features, such as syntax highlighting and code completion " +
             "are only available for these languages." +
             "<br><br>" +
@@ -269,11 +298,11 @@ let projects = [
         "github": "",
         "specs-name": "GALLERY",
         "desc":
-            "<p>Born as a way to have a personal presence on the web, this website has evolved to"
+            "<p>Born as a way to have a personal presence on the web, this website has evolved to "
             + "also showcase my projects and my personal design style, which is noticeable in everything, "
             + "from colors, to font and images.<br><br>"
-            + "I started web developing in 2014, as a way to get started with programming, while having" +
-            " fun and creating aesthetically pleasing visuals.</p>",
+            + "I started web developing in 2014, as a way to get started with programming, while having " +
+            "fun and creating aesthetically pleasing visuals.</p>",
         "specs":
 
             "<img class='project-page-proj-img' alt='cate-png' src='../Imgs/projects/web1.png' " +

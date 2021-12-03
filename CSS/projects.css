@@ -24,7 +24,7 @@
     padding: 12.5vh 7.5% 7.5%;
 
     color: var(--primary);
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.65);
 }
 
 #project-code-div {
@@ -91,14 +91,14 @@
 
 #project-page-proj-text {
 
-    max-width: 30vw;
+    max-width: 33vw;
     min-height: 40vh;
     max-height: 41vh;
     margin-top: 7.5%;
     padding-right: 2vw;
 
     text-align: justify;
-    overflow-y: scroll;
+    overflow:auto;
     color: var(--secondary) !important;
 
     font-size: 19px;
@@ -117,7 +117,7 @@
 }
 
 #proj-button-row {
-    max-width: 30vw;
+    max-width: 33vw;
     margin: 3.5vh 0 0;
 }
 
@@ -146,7 +146,7 @@
 }
 
 #prev-butt {
-    margin-right: 15vw;
+    margin-right: 18vw;
 }
 
 #prev-butt:focus{outline:none;}

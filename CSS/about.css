@@ -24,14 +24,14 @@
     padding: 15vh 7.5% 7.5%;
 
     color: var(--secondary);
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.65);
 }
 
 #about-summ-over-div {
     height: 55vh;
     max-height: 55vh;
     overflow-y: scroll;
-    padding-right: 2vw;
+    padding-right: 3vw;
     scrollbar-width: thin;
     scrollbar-color: var(--secondary) var(--primary);
 }
