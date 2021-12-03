@@ -1,21 +1,52 @@
 // PROJECTS
 let projects = [
 
-    /*{
+    {
         "name": "PIXELMUG",
         "code": "0000 0000",
         "github": "",
         "specs-name": "INFO",
         "desc":
-            "<p>TODO</p>",
+            "<p>" +
+            "TODO" +
+            "</p>",
+
         "specs":
-            "<p>TODO</p>"
+
+            "<p>" +
+            "TODO" +
+            "</p>" +
+
+            "<h5 class='subsession-title'>ART & ANIMATION</h5>" +
+
+            "<p class='project-page-proj-expl'>" +
+            "TODO" +
+            "</p>" +
+
+            "<h5 class='subsession-title'>PROGRAMMING & LEVEL DESIGN</h5>" +
+
+            "<p class='project-page-proj-expl'>" +
+            "TODO" +
+            "</p>" +
+
+            "<h5 class='subsession-title'>SOUND & MUSIC</h5>" +
+
+            "<p class='project-page-proj-expl'>" +
+            "TODO" +
+            "</p>" +
+
+            "<h5 class='subsession-title'>PROJECTS</h5>" +
+
+            "<p class='project-page-proj-expl'>" +
+            "TODO" +
+            "</p>"
     },
 
     {
         "name": "ASU Software",
         "code": "0000 0001",
         "github": "",
+        "specs-name": "INFO",
         "desc":
             "<p>" +
             "The Autonomous System Unit (ASU) is part of the necessary control system for the autonomous vehicle." +
@@ -43,7 +74,7 @@ let projects = [
         "name": "Blender 3D Models",
         "code": "0000 0010",
         "github": "",
-        "specs-name": "INFO",
+        "specs-name": "GALLERY",
         "desc":
             "<p>" +
             "In an effort to improve at creating and making games, I have decided to start making small " +
@@ -58,7 +89,7 @@ let projects = [
             "title='Home page'>" +
 
             "<p>TODO: add more images</p>"
-    },*/
+    },
 
     {
         "name": "Game Boy Emulator",
@@ -89,11 +120,18 @@ let projects = [
 
             "<h5 class=\"subsession-title\">CYCLES AND OPCODES</h5>" +
             "<p class=\"project-page-proj-expl\">" +
-            "TODO" +
+            "Similar to the 8080, 8085, & Z80 microprocessors, the Game Boy works by executing a series of " +
+            "instructions determined by the opcodes contained in its RAM. These opcodes are found both in the Game " +
+            "Boy memory itself and in the cartridges themselves to make the most out of the memory available at the " +
+            "time." +
+            "<br>" +
+            "<br>" +
+            "Here's and example of an instruction that could have been executed by the Game Boy:" +
             "</p>" +
 
             "<p class=\"project-page-proj-code\">" +
             "<br>" +
+            "//  LDD (HL), A<br>" +
             "else if (instruction == 0x32)<br>" +
             "{<br>" +
             "&nbsp;&nbsp;&nbsp;&nbsp;memory_write((reg_H << 8u) | reg_L, reg_A);<br>" +
@@ -101,21 +139,33 @@ let projects = [
             "&nbsp;&nbsp;&nbsp;&nbsp;reg_H = dec_HL & 0xFF00;<br>" +
             "&nbsp;&nbsp;&nbsp;&nbsp;reg_L = dec_HL & 0xFF;<br>" +
             "}<br>" +
+            "//  LDI A, (HL)<br>" +
             "else if (instruction == 0x2A)<br>" +
             "{<br>" +
             "...<br>" +
             "</p>" +
 
             "<p class=\"project-page-proj-expl\">" +
-            "TODO" +
+            "A detailed list of all the Game Boy instructions, plus more information on its inner workings, can be " +
+            "found in " +
+            "<a target='_blank' href='http://marc.rawer.de/Gameboy/Docs/GBCPUman.pdf'>this</a> " +
+            "manual, which is also the one I used for the project." +
             "</p>" +
 
-            "<h5 class=\"subsession-title\">HARDWARE</h5>" +
+            "<h5 class=\"subsession-title\">MEMORY</h5>" +
 
-            "<img class='project-page-proj-img' alt='game boy memory visualization' src='../Imgs/projects/gb1.png'>" +
+            "<img class='project-page-proj-img' alt='game boy memory visualization' " +
+            "src='../Imgs/projects/gb1.png' title='Game boy memory'>" +
 
             "<p class=\"project-page-proj-expl\">" +
-            "TODO" +
+            "The way memory works in the Game Boy is intended to make use of the most possible space " +
+            "while also assure a certain degree of redundancy." +
+            "<br><br>" +
+            "For example, the addresses E000-FE00 appear to access the internal\n" +
+            "RAM the same as C000-DE00. (i.e. If you write a byte to\n" +
+            "address E000 it will appear at C000 and E000.\n" +
+            "Similarly, writing a byte to C000 will appear at C000\n" +
+            "and E000.)\n" +
             "</p>"
     },
 
@@ -138,18 +188,36 @@ let projects = [
             "It also features a primitive internal python interpreter." +
             "</p>",
         "specs":
-            "<p class=\"project-page-proj-expl\">\n" +
+            "<p class=\"project-page-proj-expl\">" +
             "Created in 2016, CATE has been my first ever big project since I started programming. It is a " +
             "simple code and text editor, with a few more advanced and interesting IDE features like a syntax " +
             "highlighting and code completition." +
-            "</p>\n" +
-            "<img class='project-page-proj-img' alt='cate-png' src='../Imgs/projects/cate.png'>" +
-            "<h5 class=\"subsession-title\">CUSTOMIZATION</h5>\n" +
-            "<p class=\"project-page-proj-expl\">\n" +
-            "Customization was a big during the creation of CATE, mostly because I love playing with " +
-            "colors and this was a fun way to add variety to my project" +
-            "</p>\n" +
-            "<p class=\"project-page-proj-code\">\n" +
+            "</p>" +
+
+            "<img class='project-page-proj-img' alt='cate-png' " +
+            "src='../Imgs/projects/cate.png' title='CATE editor interface'>" +
+
+            "<h5 class=\"subsession-title\">FEATURES</h5>" +
+
+            "<p class=\"project-page-proj-expl\">" +
+            "When I started making CATE, I wanted something as close as possible to a modern IDE. This is why it " +
+            "features syntax highlighining, code completition (with differentiations between various objects such as " +
+            "classes and variables, the abilty to search through a document and replace part of it combined with " +
+            "a case matching option, and command shortcuts." +
+            "</p>" +
+
+            "<h5 class=\"subsession-title\">CUSTOMIZATION</h5>" +
+
+            "<p class=\"project-page-proj-expl\">" +
+            "Customization had a big focus during the creation of CATE, mostly because I love playing with " +
+            "colors and this was a fun way to add variety to my project, but also because it allows anything to " +
+            "be unique and to cater people's different necessities, like high-contrast options for those with " +
+            "low vision or photosensitivity." +
+            "<br><br>" +
+            "Here's an example of the code for one of the various colour modes in CATE:" +
+            "</p>" +
+
+            "<p class=\"project-page-proj-code\">" +
             "<br>" +
             "if color == 'DARK':<br>" +
             "&nbsp;&nbsp;colors = {<br>" +
@@ -164,8 +232,6 @@ let projects = [
             "elif color == 'WHITE':<br>" +
             "elif color == 'RANDOM':<br>" +
             "&nbsp;&nbsp;...<br>" +
-            "</p>\n" +
-            "<p class=\"project-page-proj-expl\">\n" +
             "</p>"
     },
 
