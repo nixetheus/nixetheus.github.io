@@ -128,29 +128,8 @@ let projects = [
     },
 
     {
-        "name": "Blender 3D Models",
-        "code": "0000 0010",
-        "github": "",
-        "specs-name": "GALLERY",
-        "desc":
-            "<p>" +
-            "In an effort to improve at creating and making games, I have decided to start making small " +
-            "3D models in Blender. This was more as a way to create scene in <b>Unity</b> to play and thinker with." +
-            "<br><br>" +
-            "Here you can find some examples." +
-            "</p>",
-        "specs":
-
-            "<img class='project-page-proj-img' alt='cate-png' src='../Imgs/projects/web1.png' " +
-            "alt='Home page image' " +
-            "title='Home page'>" +
-
-            "<p>TODO: add more images</p>"
-    },
-
-    {
         "name": "Game Boy Emulator",
-        "code": "0000 0011",
+        "code": "0000 0010",
         "github": "https://github.com/nixetheus/GBEmulator",
         "specs-name": "CODE",
         "desc":
@@ -228,7 +207,7 @@ let projects = [
 
     {
         "name": "Cate",
-        "code": "0000 0100",
+        "code": "0000 0011",
         "github": "https://github.com/nixetheus/CATE",
         "specs-name": "CODE",
         "desc":
@@ -294,7 +273,7 @@ let projects = [
 
     {
         "name": "Personal website",
-        "code": "0000 0101",
+        "code": "0000 0100",
         "github": "",
         "specs-name": "GALLERY",
         "desc":
