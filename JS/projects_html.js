@@ -100,8 +100,77 @@ let projects = [
     },
 
     {
-        "name": "ASU Software",
+        "name": "EVERYTHING IS FINE",
         "code": "0000 0001",
+        "github": "",
+        "specs-name": "ABOUT",
+        "desc":
+            "<p>" +
+            "Ever since I was a kid, I've been in love with video games and the endless worlds you could find in " +
+            "them, from 3D universes filled with magic or robot armies to deep and emotional stories narrated " +
+            "through beautiful pixel art and handcrafted soundtracks. And being part of creating these worlds has " +
+            "been a dream of mine for quite a long time." +
+            "<br><br>" +
+            "This is why in 2020 I decided to <b>create a team of students to design and develop small " +
+            "videogames</b> as a way to start moving our first steps in the industry while still in university." +
+            "<br><br>" +
+            "After a year of attempts I managed to gather enough interest, and little after that <b>Pixelmug</b> " +
+            "was born, and we started building <b>our first prototype game</b>." +
+            "<br><br>" +
+            "[You can find our more info on us and our projects on our " +
+            "<a target='_blank' href='https://pixelmug.github.io/' class='about-a'>website</a>]" +
+            "</p>",
+
+        "specs":
+
+            "<p class=\"project-page-proj-expl\">" +
+            "Want to live a perfectly normal life? Then Everything Is Fine! is the game for you! In this 2D " +
+            "pixel-art game you'll play the part of an ordinary man managing his life through a series of minigames. " +
+            "It is up to you to help him get through everything, " +
+            "even it if it means having to deal with some dirty laundry..." +
+            "</p>" +
+
+            "<h5 class='subsession-title'>UNITY</h5>" +
+
+            "<p class='project-page-proj-expl'>" +
+            "TODO" +
+            "</p>" +
+
+            "<p class=\"project-page-proj-code\">" +
+
+            "<br>" +
+            "TODO<br>" +
+            "{<br>" +
+            "&nbsp;&nbsp;&nbsp;&nbsp;TODO;<br><br><br>" +
+            "&nbsp;&nbsp;&nbsp;&nbsp;TODO;<br>" +
+            "&nbsp;&nbsp;&nbsp;&nbsp;TODO;<br>" +
+            "&nbsp;&nbsp;&nbsp;&nbsp;TODO;<br>" +
+            "...<br>" +
+
+            "</p>" +
+
+            "<h5 class='subsession-title'>GALLERY</h5>" +
+
+            "<img class='project-page-proj-img' alt='cate-png' src='../Imgs/projects/EIF/screen.png' " +
+            "alt='Background setting for our demo' " +
+            "title='Background setting for our demo'>" +
+
+            "<img class='project-page-proj-img' alt='cate-png' src='../Imgs/projects/EIF/task1.png' " +
+            "alt='Background setting for our demo' " +
+            "title='Background setting for our demo'>" +
+
+            "<img class='project-page-proj-img' alt='cate-png' src='../Imgs/projects/EIF/task2.png' " +
+            "alt='Background setting for our demo' " +
+            "title='Background setting for our demo'>" +
+
+            "<img class='project-page-proj-img' alt='cate-png' src='../Imgs/projects/EIF/task3.png' " +
+            "alt='Background setting for our demo' " +
+            "title='Background setting for our demo'>"
+    },
+
+    {
+        "name": "ASU Software",
+        "code": "0000 0010",
         "github": "",
         "specs-name": "INFO",
         "desc":
@@ -129,7 +198,7 @@ let projects = [
 
     {
         "name": "Game Boy Emulator",
-        "code": "0000 0010",
+        "code": "0000 0011",
         "github": "https://github.com/nixetheus/GBEmulator",
         "specs-name": "CODE",
         "desc":
@@ -207,7 +276,7 @@ let projects = [
 
     {
         "name": "Cate",
-        "code": "0000 0011",
+        "code": "0000 0100",
         "github": "https://github.com/nixetheus/CATE",
         "specs-name": "CODE",
         "desc":
@@ -273,7 +342,7 @@ let projects = [
 
     {
         "name": "Personal website",
-        "code": "0000 0100",
+        "code": "0000 0101",
         "github": "",
         "specs-name": "GALLERY",
         "desc":
