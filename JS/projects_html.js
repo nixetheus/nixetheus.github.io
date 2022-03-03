@@ -106,19 +106,16 @@ let projects = [
         "specs-name": "ABOUT",
         "desc":
             "<p>" +
-            "Ever since I was a kid, I've been in love with video games and the endless worlds you could find in " +
-            "them, from 3D universes filled with magic or robot armies to deep and emotional stories narrated " +
-            "through beautiful pixel art and handcrafted soundtracks. And being part of creating these worlds has " +
-            "been a dream of mine for quite a long time." +
+            "My first game made and released with my team Pixelmug. All the game was made for the Brackeys " +
+            "Game Jam 2022.1 and was therefore designed and build in just a week." +
             "<br><br>" +
-            "This is why in 2020 I decided to <b>create a team of students to design and develop small " +
-            "videogames</b> as a way to start moving our first steps in the industry while still in university." +
+            "The theme of the jam was <b>'It is NOT real'</b> and the way we proceeded was that of creating a story " +
+            "based on the concept of self-deception, a story in which the protagonist lies to himself about the " +
+            "events and your role is that of uncovering the mistery." +
             "<br><br>" +
-            "After a year of attempts I managed to gather enough interest, and little after that <b>Pixelmug</b> " +
-            "was born, and we started building <b>our first prototype game</b>." +
-            "<br><br>" +
-            "[You can find our more info on us and our projects on our " +
-            "<a target='_blank' href='https://pixelmug.github.io/' class='about-a'>website</a>]" +
+            "You can find it on your itch.io page here: " +
+            "<a target='_blank' " +
+            "href='https://pixelmug.itch.io/everything-is-fine' class='about-a'>Everything Is Fine</a>" +
             "</p>",
 
         "specs":
@@ -133,18 +130,19 @@ let projects = [
             "<h5 class='subsession-title'>UNITY</h5>" +
 
             "<p class='project-page-proj-expl'>" +
-            "TODO" +
+            "Unity was the engine we used to complete the project. We choose it because of its fit for 2D projects " +
+            "and because of the ease of use for new developers. All the code was written using C#." +
             "</p>" +
 
             "<p class=\"project-page-proj-code\">" +
 
             "<br>" +
-            "TODO<br>" +
+            "public void NextTask()<br>" +
             "{<br>" +
-            "&nbsp;&nbsp;&nbsp;&nbsp;TODO;<br><br><br>" +
-            "&nbsp;&nbsp;&nbsp;&nbsp;TODO;<br>" +
-            "&nbsp;&nbsp;&nbsp;&nbsp;TODO;<br>" +
-            "&nbsp;&nbsp;&nbsp;&nbsp;TODO;<br>" +
+            "&nbsp;&nbsp;&nbsp;&nbsp;currTask++;<br><br>" +
+            "&nbsp;&nbsp;&nbsp;&nbsp;if (currTask >= days[currDay].task.Length)<br>" +
+            "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NextDay();<br>" +
+            "&nbsp;&nbsp;&nbsp;&nbsp;else<br>" +
             "...<br>" +
 
             "</p>" +
