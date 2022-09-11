@@ -24,22 +24,12 @@ html {
 }
 
 body {
-    overflow: hidden;
     scrollbar-width: thin;
-    scrollbar-color: var(--primary) var(--secondary);
     background-color: transparent !important;
-
-    background-size: 100% 100%;
-    background-image: url("../Imgs/body.jpg");
+    scrollbar-color: var(--primary) var(--secondary);
 }
 
 /* Width */
 body::-webkit-scrollbar {
-    width: 7px;
-    border: 1px solid var(--tertiary);
-}
-
-/* Handle */
-body::-webkit-scrollbar-thumb {
-    background: var(--tertiary);
+    width: 0;
 }

@@ -1,10 +1,17 @@
 /* HOME */
 
+body {
+    background-size: cover;
+    background-position: center;
+    background-image: url("../Imgs/home.jpg");
+}
+
 #home-content-div {
 
     min-height: 100vh;
     max-height: 100vh;
-    padding: 25vh 10% 10%;
+    text-align: center;
+    padding: 17.5% 10% 10%;
 }
 
 #h1-hello-name {
@@ -12,8 +19,7 @@
     padding: 0 !important;
     margin: 0 0 -3vh 0 !important;
 
-    font-size: 8.5vw;
-    text-align: justify;
+    font-size: 6vw;
     white-space: pre-line;
     color: var(--secondary);
     font-family: var(--main-font) !important;
@@ -24,47 +30,12 @@
     padding: 0 !important;
     margin: 0 0 1vh 0 !important;
 
-    font-size: 8.5vw;
-    text-align: justify;
+    font-size: 6vw;
     white-space: pre-line;
     color: var(--secondary);
     font-family: var(--main-font) !important;
 }
 
-#h2-hello {
-    width: auto;
-    font-size: 3.25vw;
-    padding-left: 0.5vw;
-    padding-right: 0.5vw;
-    text-align: justify;
-    display: inline-block;
-    font-weight: bold;
-    color: var(--primary);
-    background-color: var(--secondary);
-    font-family: var(--secondary-font) !important;
-}
-
-#me {
-    padding-left: 0.75vw;
-    font-size: 3.25vw;
-    font-weight: bold;
-    color: var(--secondary);
-    font-family: var(--secondary-font) !important;
-}
-
-#blinking_write {
-    font-size: 3.5vw;
-    font-weight: bold;
-    color: transparent;
-    font-family: var(--secondary-font) !important;
-    animation: blink 0.75s linear infinite;
-}
-
-@keyframes blink {
-    0% {opacity: 0;}
-    50% {opacity: 1;}
-    100% {opacity: 0;}
-}
 
 /* SMALL */
 
@@ -99,48 +70,4 @@
     text-align: center;
     color: var(--secondary);
     font-family: var(--main-font) !important;
-}
-
-#h2-hello-small {
-
-    width: auto;
-    font-size: 5vw;
-    text-align: center;
-    padding-left: 1vw;
-    padding-right: 1vw;
-    font-weight: bold;
-    padding-top: 0.75vw;
-    margin: 0;
-    color: var(--primary);
-    background-color: var(--secondary);
-    font-family: var(--secondary-font) !important;
-
-    display: inline-block;
-}
-
-#me-small {
-    margin-right: 0;
-    padding-left: 0.75vw;
-    font-size: 5vw;
-    font-weight: bold;
-    color: var(--secondary);
-    font-family: var(--secondary-font) !important;
-    display: inline-block;
-}
-
-#blinking_write-small {
-    margin-left: 0;
-    font-size: 5vw;
-    font-weight: bold;
-    color: transparent;
-    font-family: var(--secondary-font) !important;
-    animation: blink 0.75s linear infinite;
-    display: inline-block;
-}
-
-#more-small {
-    width: 100%;
-    font-size: 48px;
-    text-align: center;
-    color: var(--secondary);
 }

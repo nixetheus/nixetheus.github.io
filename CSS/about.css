@@ -1,11 +1,15 @@
 /* ABOUT */
 
+body {
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../Imgs/home.jpg");
+}
+
 #about-content-div {
     min-height: 100vh;
     max-height: 100vh;
-    /*background-color: var(--primary);*/
-    /*background-size: 100%;
-    background-image: url("../Imgs/about.jpg");*/
 }
 
 #about-div-in {
@@ -24,7 +28,7 @@
     padding: 15vh 7.5% 7.5%;
 
     color: var(--secondary);
-    background-color: rgba(0, 0, 0, 0.65);
+    background-color: rgba(0, 0, 0, 0.25);
 }
 
 #about-summ-over-div {

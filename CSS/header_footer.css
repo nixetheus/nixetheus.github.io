@@ -18,21 +18,11 @@
     position: fixed;
 
     margin: 0 !important;
-    padding: 0.5% !important;
+    padding: 3vh !important;
     padding-left: 1.5vw !important;
     padding-right: 2vw !important;
 
-    background-color: rgba(0, 0, 0, 0.1);
-}
-
-.navbar-brand {
-
-    margin-left: 1.5vw;
-    padding-top: 0.5vh;
-
-    font-size: 23px !important;
-    color: var(--secondary) !important;
-    font-family: var(--main-font) !important;
+    background-color: transparent;
 }
 
 .nav-item {
@@ -47,7 +37,6 @@
     padding: 0 !important;
 
     font-weight: bold;
-    color: var(--tertiary);
     font-size: 17px !important;
     font-family: var(--secondary-font) !important;
 }
@@ -57,19 +46,19 @@
 }
 
 .current li {
-    color: var(--tertiary);
-    border-bottom: 3px solid var(--tertiary);
+    color: var(--secondary);
+    border-bottom: 3px solid var(--secondary);
 }
 
 .external li {
 
-    background: linear-gradient(to left, var(--tertiary) 0%, var(--tertiary) 100%) repeat-y 0 100%;
+    background: linear-gradient(to left, var(--secondary) 0%, var(--secondary) 100%) repeat-y 0 100%;
 
     background-size: 0 0;
     transition: background-size .5s;
 
     text-decoration: none;
-    color: var(--tertiary);
+    color: var(--secondary);
 }
 
 .external li:hover {
@@ -77,19 +66,20 @@
 }
 
 .external:hover li {
-    color: var(--secondary) !important;
+    color: var(--tertiary) !important;
 }
 
 /* FOOTER */
 #footer-div-site {
 
     height: 100%;
-    max-height: 6vh;
+    max-height: 7vh;
+
     padding: 1%;
     display: block;
     margin-top: auto;
 
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: transparent;
 }
 
 #copyright {
@@ -101,22 +91,26 @@
     margin: 0;
     float: left !important;
 
+    font-weight: bold;
     color: var(--secondary);
     font-family: var(--secondary-font) !important;
 }
 
 #copyright-text h6 {
+    font-weight: bold;
     margin: 0 0.4vw 0 0;
 }
 
 #copyright-sy {
     margin-left: 5px !important;
 
+    font-weight: bold;
     color: var(--secondary);
     font-family: var(--secondary-font) !important;
 }
 
 #copyright-sy h6 {
     margin: 0;
+    font-weight: bold;
 }
 
