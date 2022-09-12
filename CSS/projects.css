@@ -5,8 +5,6 @@
     max-height: 94vh;
 
     margin: 0 !important;
-    /*background-size: 100%;
-    background-image: url("../Imgs/proj.jpg");*/
 }
 
 #project-page-div {
@@ -24,7 +22,7 @@
     padding: 12.5vh 7.5% 7.5%;
 
     color: var(--primary);
-    background-color: rgba(0, 0, 0, 0.65);
+    background-color: transparent;
 }
 
 #project-code-div {
@@ -45,15 +43,11 @@
     padding: 0.2% 0.5%;
     display:inline-block;
 
-    background:
-            linear-gradient(
-                    to left, var(--secondary) 0%,
-                    var(--secondary) 100%
-            );
-
     background-size: 0 0;
-    background-position: 0 100%;
-    background-repeat: repeat-y;
+    background: linear-gradient(
+            to left, var(--secondary) 0%,
+            var(--secondary) 100%
+    ) repeat-y 0 100%;
     transition: background-size .75s;
 
     font-size: 1.75vw;
@@ -67,15 +61,11 @@
     margin-top: -0.25%;
     display:inline-block;
 
-    background:
-            linear-gradient(
-                    to left, var(--secondary) 0%,
-                    var(--secondary) 100%
-            );
-
     background-size: 0;
-    background-position: 0 100%;
-    background-repeat: repeat-y;
+    background: linear-gradient(
+            to left, var(--secondary) 0%,
+            var(--secondary) 100%
+    ) repeat-y 0 100%;
     transition: background-size .75s;
 
     color: var(--tertiary);
@@ -91,9 +81,9 @@
 
 #project-page-proj-text {
 
-    max-width: 33vw;
-    min-height: 40vh;
-    max-height: 41vh;
+    max-width: 34vw;
+    min-height: 43vh;
+    max-height: 43vh;
     margin-top: 7.5%;
     padding-right: 2vw;
 
@@ -101,14 +91,13 @@
     overflow:auto;
     color: var(--secondary) !important;
 
-    font-size: 19px;
+    font-size: 18px;
     font-family: var(--secondary-font) !important;
 }
 
 /* Width */
 #project-page-proj-text::-webkit-scrollbar {
-    width: 5px;
-    border: 1px solid var(--secondary);
+    width: 1px;
 }
 
 /* Handle */
@@ -129,15 +118,11 @@
     border: 0;
     color: var(--tertiary);
 
-    background:
-            linear-gradient(
-                    to left, var(--secondary) 0%,
-                    var(--secondary) 100%
-            );
-
     background-size: 0 0;
-    background-position: 0 100%;
-    background-repeat: repeat-y;
+    background: linear-gradient(
+            to left, var(--secondary) 0%,
+            var(--secondary) 100%
+    ) repeat-y 0 100%;
     transition: background-size .75s;
 
     font-size: 17px;
@@ -180,8 +165,7 @@
 
 /* Width */
 #project-code-over-div::-webkit-scrollbar {
-    width: 5px;
-    border: 1px solid var(--tertiary);
+    width: 1px;
 }
 
 /* Handle */

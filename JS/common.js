@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
 
     // Mobile scrollbar
@@ -10,6 +11,20 @@ $(document).ready(function(){
         }
     });
 
+    // NAVBAR START
+    $(".nav-link").click(function() {
+
+        $(this).addClass("current");
+        $(this).removeClass("external");
+
+        $(this).siblings().each(function() {
+            $(this).addClass("external");
+
+            if ($(this).hasClass("current")) {
+                $(this).removeClass("current");
+            }
+        });
+    });
 
     // PROJECT START
     $("#project-page-proj-text").hide();

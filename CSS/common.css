@@ -24,6 +24,7 @@ html {
 }
 
 body {
+    overflow: hidden;
     scrollbar-width: thin;
     background-color: transparent !important;
     scrollbar-color: var(--primary) var(--secondary);
